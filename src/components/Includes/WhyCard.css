@@ -1,0 +1,91 @@
+.whyCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.whyCardImageMain{
+    display: flex;
+    object-fit: contain;
+}
+.mainBackgroundImage{
+    display: flex;
+    width: 250px;
+    height: 300px;
+}
+.whyCardImageTop{
+    position: relative;
+    top: 0;
+}
+.topImage{
+    display: inline-flex;
+    margin-top: -550px;
+}
+.whyCardHeaderDiv, .whyCardParaDiv{
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+.whyCardHeader{
+    display: inline-flex;
+    width: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    margin-top: -425px;
+}
+.whyCardPara{
+    display: inline-flex;
+    width: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    margin-top: -225px;
+    color: rgb(78, 78, 78);
+}
+@media only screen and (max-width: 1024px){
+    .whyCard{
+        width: 33%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .whyCard{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .whyCardHeader{
+        font-size: 1rem;
+    }
+    .whyCardPara{
+        font-size: 0.9rem;
+    }
+}
+@media only screen and (max-width: 480px){
+    .whyCard{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .whyCardHeader{
+        font-size: 1rem;
+    }
+    .whyCardPara{
+        font-size: 0.6rem;
+        line-height: 1.3rem;
+        color: gray;
+        padding-right: 25px;
+    }
+}

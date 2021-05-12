@@ -1,0 +1,459 @@
+@media only screen and (max-width:1024px) {
+    .dropdown-content {
+        left: -135px;
+    }
+    .dropdown-content-about {
+        right: 100px !important;
+    }
+    .dots,
+    .dots-second,
+    .dots-third,
+    .dots-six {
+        display: none;
+    }
+    .cards-div-main {
+        width: 100% !important;
+        overflow-x: auto;
+        padding-left: 100px;
+        flex-wrap: nowrap !important;
+    }
+    .pic-1 {
+        width: 200px !important;
+        height: 250px !important;
+        padding: 5px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 1.1rem;
+    }
+    .dropdown-about {
+        padding: 0 10px;
+    }
+    .dropdown-content-about {
+        position: absolute;
+        right: 0px;
+        height: 85px;
+        width: 50px;
+    }
+    .dropdown-content-about-h5 {
+        font-size: 1.1rem !important;
+        color: gray;
+        text-transform: uppercase;
+        padding: 4px 0 0 0;
+    }
+    .dropdown-content {
+        position: absolute;
+        right: 0;
+    }
+    .dropdown-content-h5 {
+        font-size: 1.1rem;
+        margin-left: 0px !important;
+    }
+    .dropdown {
+        padding: 0px 10px;
+    }
+    #logo-footer p {
+        margin-left: -20px;
+    }
+    #technology-mobile-app #ps {
+        height: 150px;
+        margin-left: 830px;
+        margin-top: -130px;
+    }
+    #technology-mobile-app #ai {
+        height: 150px;
+        margin-left: 610px;
+        margin-top: -250px;
+    }
+    #technology-mobile-app #sketch {
+        height: 150px;
+        margin-left: 830px;
+        margin-top: -420px;
+    }
+    #technology-mobile-app #xd {
+        height: 150px;
+        margin-left: 850px;
+        margin-top: -630px;
+    }
+    #technology-mobile-app #figma {
+        height: 150px;
+        margin-left: 820px;
+        margin-top: -810px;
+    }
+    #technology-mobile-app #invison {
+        height: 150px;
+        margin-left: 860px;
+        margin-top: -970px;
+    }
+    /* ########################### UI/UX Design Start ################################ */
+    .image img {
+        margin-left: 75px;
+    }
+    .content {
+        margin-left: 475px;
+    }
+    .line-image {
+        width: 100% !important;
+    }
+    .content-overlap-second,
+    .content-overlap-forth,
+    .content-overlap-six {
+        margin-left: 50px;
+        /* width: 400px; */
+        height: auto;
+    }
+    .image-overlap-second img {
+        height: 250px;
+        margin-left: 50px;
+        margin-top: -75px;
+    }
+    .image-overlap-forth img {
+        height: 250px;
+        margin-left: 50px;
+        margin-top: -350px;
+    }
+    .image-overlap-six img {
+        height: 250px;
+        margin-left: 50px;
+        margin-top: -1111px;
+    }
+    .image-overlap-third img {
+        height: 250px;
+        margin-left: -75px;
+        margin-top: -100px;
+    }
+    .image-overlap-five img {
+        height: 250px;
+        margin-left: -75px;
+        margin-top: -600px;
+    }
+    .content-overlap-third,
+    .content-overlap-five {
+        margin-left: 360px;
+        /* width: 400px; */
+        height: auto;
+    }
+    /* ########################### UI/UX Design End ################################ */
+    /* ########################### Mobile App Development Start ############################ */
+    .overlap-mobile-apple {
+        height: auto !important;
+    }
+    .mobile-app-cards {
+        margin-top: 325%;
+        margin-bottom: -30%;
+        margin-left: -190% !important;
+    }
+    .why-omka-mobile-box8 h1 {
+        padding-left: 15px;
+    }
+    .mobile-app-image {
+        margin-left: 100%;
+    }
+    #dream-app img {
+        margin-left: -50px;
+    }
+    #contact img {
+        width: 530px;
+        margin-left: -50px;
+    }
+    .rectangle {
+        margin-left: 184px;
+        border-bottom-right-radius: 3px;
+        border-top-right-radius: 3px;
+    }
+    /* ########################### Mobile App Development End ############################ */
+    /* ########################### Digital Marketing Start ############################ */
+    #seo-trafic img {
+        margin-left: 0;
+    }
+    .content-overlap-seo,
+    .content-overlap-content,
+    .content-overlap-smm {
+        margin-left: 25px;
+    }
+    .image-overlap-seo img,
+    .image-overlap-content img,
+    .image-overlap-smm img {
+        margin-left: 75px;
+    }
+    .image-overlap-seo,
+    .image-overlap-content,
+    .image-overlap-smm {
+        width: 400px;
+    }
+    .image-overlap-smo img {
+        margin-left: -15px;
+    }
+    .image-overlap-smo,
+    .image-overlap-ppc {
+        width: 400px;
+        margin-left: 25px;
+    }
+    .content-overlap-smo,
+    .content-overlap-ppc {
+        margin-left: 400px;
+    }
+    .image-overlap-ppc img {
+        margin-left: 75px;
+    }
+    #web-design-seo img,
+    #sem-seo img {
+        margin-left: -50px;
+        width: 500px;
+        margin-top: 40px;
+    }
+    #seo-seo img,
+    #smm-seo img {
+        margin-left: -25px;
+        width: 500px;
+        margin-top: 40px;
+    }
+    #smm-seo h1,
+    #seo-seo h1 {
+        margin-left: 40px;
+    }
+    #seo-seo h2,
+    #smm-seo h2 {
+        margin-left: 40px;
+    }
+    .seo-ul {
+        margin-left: 40px !important;
+    }
+    .seo-ul1 {
+        width: 425px !important;
+    }
+    /* ########################### Digital Marketing End ############################ */
+    /* ########################### Gaming App Development Start ############################ */
+    #service-gaming img,
+    #service-gaming-hd img,
+    #service-gaming-android img {
+        margin-left: 0;
+    }
+    #service-gaming-html p,
+    #service-gaming-hd p,
+    #service-gaming p,
+    #service-gaming-ios p,
+    #service-gaming-android p {
+        width: 400px;
+    }
+    .gaming-app-card {
+        margin-top: 25px;
+        width: 245px;
+        height: 277px;
+    }
+    .gaming-app-card-h5 {
+        margin-top: -100px !important;
+    }
+    .gaming-app-card-h5-exc {
+        margin-top: -95px !important;
+    }
+    /* ########################### Gaming App Development End ############################ */
+    /* ########################### Web Development Start ############################ */
+    #web-service img {
+        margin-left: 0;
+        width: 450px;
+    }
+    .content-overlap-web-seo,
+    .content-overlap-att-web,
+    .content-overlap-proff-web {
+        margin-left: 25px;
+    }
+    .image-overlap-web-seo img,
+    .image-overlap-resp-web img,
+    .image-overlap-att-web img,
+    .image-overlap-user-web img,
+    .image-overlap-proff-web img {
+        margin-left: 100px;
+    }
+    .image-overlap-web-seo,
+    .image-overlap-resp-web,
+    .image-overlap-att-web,
+    .image-overlap-proff-web {
+        width: 400px;
+    }
+    .image-overlap-resp-web,
+    .image-overlap-user-web,
+    .image-overlap-speed-web {
+        width: 400px;
+        margin-left: 25px;
+    }
+    .content-overlap-resp-web,
+    .content-overlap-user-web,
+    .content-overlap-speed-web {
+        margin-left: 400px;
+    }
+    .web-deveopment-card-image {
+        margin-top: -420px !important;
+    }
+    .web-deveopment-card-design {
+        margin-top: -440px !important;
+    }
+    /* ########################### Web Development End ############################ */
+    /* ########################### Software Development Start ############################ */
+    #dummy-soft img {
+        margin-left: 75px;
+    }
+    .why-omka-software-page-box6 p,
+    .why-omka-software-page-box5 p,
+    .why-omka-software-page-box4 p,
+    .why-omka-software-page-box3 p,
+    .why-omka-software-page-box2 p,
+    .why-omka-software-page-box1 p {
+        padding-top: 0;
+    }
+    .why-omka-software-page-box6 h1,
+    .why-omka-software-page-box5 h1,
+    .why-omka-software-page-box4 h1,
+    .why-omka-software-page-box3 h1,
+    .why-omka-software-page-box2 h1,
+    .why-omka-software-page-box1 h1 {
+        margin-top: -235px;
+    }
+    .content-overlap-second-soft,
+    .content-overlap-forth-development-soft,
+    .content-overlap-six-launch-soft {
+        margin-left: 25px;
+    }
+    .image-overlap-second-soft,
+    .image-overlap-forth-development-soft {
+        width: 400px;
+    }
+    .image-overlap-second-soft img,
+    .image-overlap-forth-development-soft img,
+    .image-overlap-six-launch-soft img {
+        margin-left: 125px;
+    }
+    .image-overlap-third-ui-soft,
+    .image-overlap-five-test-soft {
+        width: 400px;
+        margin-left: 25px;
+    }
+    .image-overlap-third-ui-soft img,
+    .image-overlap-five-test-soft img {
+        margin-left: 75px;
+    }
+    .content-overlap-third-ui-soft,
+    .content-overlap-five-test-soft {
+        margin-left: 400px;
+    }
+    .image-overlap-six-launch-soft {
+        width: 400px;
+        margin-top: -450px;
+    }
+    .sd-card-image-main {
+        margin-top: 60px;
+        width: 225px;
+        height: 271px;
+    }
+    .sd-card-h4 {
+        margin-top: 90px !important;
+    }
+    .sd-card-h4-minor {
+        margin-top: 105px !important;
+    }
+    .sd-card-image-minor {
+        margin-top: -425px !important;
+    }
+    /* ########################### Software Development End ############################ */
+    /* ########################### Technology Start ############################ */
+    #expert-about-us img {
+        margin-left: 25px;
+    }
+    .process-technolgy6 p,
+    .process-technolgy5 p,
+    .process-technolgy4 p,
+    .process-technolgy3 p,
+    .process-technolgy2 p,
+    .process-technolgy1 p {
+        padding-top: 0px;
+    }
+    .technology-types-image {
+        width: 310px !important;
+        height: 250px !important;
+    }
+    .technology-for-sd-image,
+    .technologies-for-sd-h2 {
+        margin-left: 75px !important;
+    }
+    .technology-for-sd-h2 {
+        margin-left: 115px !important;
+    }
+    .free-cost-technology-dynamo {
+        margin-left: 50px;
+    }
+    .free-cost-technology,
+    .free-cost-technology-mysql {
+        margin-left: 150px;
+    }
+    /* ########################### Technology End ############################ */
+    /* ########################### Ready To Use Start ############################ */
+    .child {
+        width: 87%;
+    }
+    .child h1 {
+        padding-left: 50px;
+    }
+    .btn-register-header-ready {
+        margin-left: 125px;
+    }
+    .button-of-large {
+        margin-left: 410px !important;
+    }
+    /* ########################### Ready To Use End ############################ */
+    /* ########################### Portfolio Start ############################ */
+    #portfolio-banner img,
+    #portfolio-web img,
+    #portfolio-Software img,
+    #portfolio-Digital img {
+        margin-left: -75px;
+    }
+    #portfolio-Gaming img {
+        margin-left: -25px;
+    }
+    /* ########################### Portfolio End ############################ */
+    /* ########################### Our Expertise Start ############################ */
+    #about-tough-design {
+        height: auto !important;
+    }
+    .circle-about-different-forth,
+    .circle-about-different-five {
+        margin-left: 650px;
+    }
+    /* ########################### Our Expertise End ############################ */
+    /* ########################### About Us Start ############################ */
+    .button-left-aboutUs-new button {
+        margin-left: 450px;
+    }
+    .rectangle-get-about-us {
+        margin-left: 420px;
+    }
+    .about-us-label1 {
+        margin-left: -350px !important;
+    }
+    .about-us-label2 {
+        margin-left: -382px !important;
+    }
+    .about-us-label3 {
+        margin-left: -345px !important;
+    }
+    .about-us-label4 {
+        margin-left: -310px !important;
+    }
+    .about-us-label5 {
+        margin-left: -350px !important;
+    }
+    .about-us-label6 {
+        margin-left: -360px !important;
+    }
+    .about-us-label7 {
+        margin-left: -270px !important;
+    }
+    .about-us-label8 {
+        margin-left: -260px !important;
+    }
+    /* ########################### About Us End ############################ */
+    /* ########################### Contact Us Start ############################ */
+    #contactUsNew {
+        margin-left: 100px;
+    }
+    /* ########################### Contact Us End ############################ */
+}

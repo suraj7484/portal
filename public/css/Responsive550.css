@@ -1,0 +1,170 @@
+@media only screen and (max-width:550px){
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 0.8rem;
+    }
+    .dropdown-about{
+        padding: 0 10px;
+    }
+    .dropdown-content-about{
+        position: absolute;
+        right: 0px;
+        height: 85px;
+        width: 50px;
+    }
+    .dropdown-content-about-h5{
+        font-size: 0.8rem !important;
+        color: gray;
+        text-transform: uppercase;
+        padding: 4px 0 0 0;
+    }
+    .dropdown-content{
+        position: absolute;
+        right: 0;
+    }
+    .dropdown-content-h5{
+        font-size: 0.7rem;
+        margin-left: 0px !important;
+    }
+    #values-para-homepage-second p{
+        margin-left: 200px !important;
+        margin-bottom: 20px !important;
+    }
+    .cards-div-main{
+        width: 100% !important;
+        overflow-x: auto !important;
+        padding-left: 0px !important;
+        margin-bottom: 150px !important;
+    }
+    .cards-div-main > .col-md-2{
+        width: auto !important;
+        padding: 0 5px;
+    }
+    .image-1{
+        width: 100px !important;
+        height: 150px !important;
+    }
+    .pic-1{
+        /* display: inline-flex !important; */
+        width: 100px !important;
+        height: 150px !important;
+        padding: 5px !important;
+        overflow: hidden !important;
+        /* margin: 0 !important; */
+    }
+    .desktop-how-we-work-view{
+        width: 100% !important;
+        overflow-x: hidden !important;
+    }
+    .desktop-how-we-work-view > .container { 
+        width: 100%;
+        overflow-x: hidden;
+    }
+    /* .why-omka-tech p{
+        width: 50px !important;
+    } */
+    .slideInRight{
+        margin-left: 150px !important;
+        margin-top: 0px !important;
+    }
+    .circle, .circle-third, .circle-five{
+        margin-left: 288px !important;
+        margin-top: 0px !important;
+    }
+    .circle-second, .circle-forth, .circle-six{
+        margin-left: 5px !important;
+        margin-top: 0px !important;
+    }
+    .slider-main{
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
+    }
+    .carousel-caption-textmonail p {
+        font-size: 12px;
+        margin: auto;
+        width: 65%;
+        margin-bottom: 10px;
+        margin-left: 127px;
+        margin-top: -90px;
+        color: #959393;
+        text-align: justify;
+        font-family: 'Roboto';
+        font-weight: 500px;
+    }
+    .img-area {
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-left: 5px;
+    }
+    .carousel-caption-textmonail h3{
+        margin-left: -20px;
+        font-size: 13px;
+    }
+    .carousel-caption-textmonail h4{
+        margin-left: -35px;
+        font-size: 13px;
+    }
+    .row{
+        flex-wrap: nowrap;
+    }
+    /* ########################### UI/UX Design Start ################################ */
+
+    /* ########################### UI/UX Design End ################################ */
+
+    /* ########################### Mobile App Development Start ############################ */
+    
+    /* ########################### Mobile App Development End ############################ */
+
+
+    /* ########################### Digital Marketing Start ############################ */
+
+    /* ########################### Digital Marketing End ############################ */
+
+
+    /* ########################### Gaming App Development Start ############################ */
+
+    /* ########################### Gaming App Development End ############################ */
+
+
+    /* ########################### Web Development Start ############################ */
+
+    /* ########################### Web Development End ############################ */
+
+
+    /* ########################### Software Development Start ############################ */
+
+    /* ########################### Software Development End ############################ */
+
+
+    /* ########################### Technology Start ############################ */
+
+    /* ########################### Technology End ############################ */
+
+
+    /* ########################### Ready To Use Start ############################ */
+
+    /* ########################### Ready To Use End ############################ */
+
+
+    /* ########################### Portfolio Start ############################ */
+
+    /* ########################### Portfolio End ############################ */
+
+
+    /* ########################### Our Expertise Start ############################ */
+
+    /* ########################### Our Expertise End ############################ */
+
+
+    /* ########################### About Us Start ############################ */
+
+    /* ########################### About Us End ############################ */
+
+
+    /* ########################### Contact Us Start ############################ */
+
+    /* ########################### Contact Us End ############################ */
+}

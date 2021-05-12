@@ -1,0 +1,98 @@
+@media only screen and (max-width: 350px){
+    .dots, .dots-second, .dots-third, .dots-six{
+        width: 50px !important;
+        padding-left: 25px !important;
+    }
+    
+    #values-para-homepage .how-we-work-h3{
+        margin-left: 0px !important;
+        margin-top: 0px !important;
+    }
+    #values-para-homepage-second p{
+        margin-left: 150px !important;
+    }
+    .how-we-work{
+        padding: 10px !important;
+    }
+    .slideInRight{
+        margin-left: 100px !important;
+        margin-top: 0px !important;
+    }
+    .circle, .circle-third, .circle-five{
+        margin-left: 238px !important;
+        margin-top: 0px !important;
+    }
+    .circle-second, .circle-forth, .circle-six{
+        margin-left: 5px !important;
+        margin-top: 0px !important;
+    }
+    .slider-main{
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
+    }
+    .carousel-caption-textmonail h3{
+        margin-left: 35px;
+        font-size: 13px;
+    }
+    .carousel-caption-textmonail h4{
+        margin-left: 20px;
+        font-size: 13px;
+    }
+    /* ########################### UI/UX Design Start ################################ */
+
+    /* ########################### UI/UX Design End ################################ */
+
+    /* ########################### Mobile App Development Start ############################ */
+    
+    /* ########################### Mobile App Development End ############################ */
+
+
+    /* ########################### Digital Marketing Start ############################ */
+
+    /* ########################### Digital Marketing End ############################ */
+
+
+    /* ########################### Gaming App Development Start ############################ */
+
+    /* ########################### Gaming App Development End ############################ */
+
+
+    /* ########################### Web Development Start ############################ */
+
+    /* ########################### Web Development End ############################ */
+
+
+    /* ########################### Software Development Start ############################ */
+
+    /* ########################### Software Development End ############################ */
+
+
+    /* ########################### Technology Start ############################ */
+
+    /* ########################### Technology End ############################ */
+
+
+    /* ########################### Ready To Use Start ############################ */
+
+    /* ########################### Ready To Use End ############################ */
+
+
+    /* ########################### Portfolio Start ############################ */
+
+    /* ########################### Portfolio End ############################ */
+
+
+    /* ########################### Our Expertise Start ############################ */
+
+    /* ########################### Our Expertise End ############################ */
+
+
+    /* ########################### About Us Start ############################ */
+
+    /* ########################### About Us End ############################ */
+
+
+    /* ########################### Contact Us Start ############################ */
+
+    /* ########################### Contact Us End ############################ */
+}
