@@ -1,0 +1,413 @@
+@media only screen and (max-width: 350px){
+    .circle{
+        margin-top: -40px !important;
+    }
+    .circle, .circle-third, .circle-five {
+        width: 60px;
+        height: 60px;
+        margin-left: 217px !important;
+    }
+    .circle-second, .circle-forth, .circle-six{
+        width: 60px;
+        height: 60px;
+    }
+    .circle-second img, .circle img, .circle-third img, .circle-forth img, .circle-five img, .circle-six img {
+        top: 10px;
+        margin-left: 10px;
+        height: 35px;
+        width: 35px !important;
+    }
+    #values-para-homepage-second h3, #values-para-homepage-second h3, #values-para-homepage-forth h3,#values-para-homepage-six h3{
+        margin-left: 80px !important;
+    }
+    #values-para-homepage-second p, #values-para-homepage-forth p, #values-para-homepage-six p{
+        margin-left: 130px !important;
+        width: 135px;
+    }
+    #values-para-homepage p{
+        width: 135px;
+    }
+    .dropdown-content {
+        position: absolute;
+        right: 0;
+        left: -10px;
+        width: 270px;
+        height: auto;
+    }
+    #values {
+        height: 1150px !important;
+    }
+
+
+
+
+
+    #technology .line{
+        height: 100vw !important;
+    }
+    .technology-h1{
+        margin-top: -800px !important;
+    }
+    #technology .invision {
+        height: 100px;
+        margin-left: 148px;
+        margin-top: -780px;
+    }
+    #technology .figma {
+        height: 100px;
+        margin-left: 120px;
+        margin-top: -665px;
+    }
+    #technology .xd {
+        height: 100px;
+        margin-left: 140px;
+        margin-top: -530px;
+    }
+    #technology .sketch {
+        height: 100px;
+        margin-left: 140px;
+        margin-top: -380px;
+    }
+    #technology .ai {
+        height: 100px;
+        margin-left: 90px;
+        margin-top: -265px;
+    }
+    #technology .ps {
+        height: 103px;
+        margin-left: 139px;
+        margin-top: -40px;
+    }
+    #technology-seo-new h1{
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 0;
+    }
+    #technology-seo-new .line {
+        margin-left: -275px;
+        margin-top: -20px;
+        height: 75vw;
+    }
+    #technology-seo-new .invision {
+        height: 100px;
+        margin-left: 158px;
+        margin-top: -780px;
+    }
+    #technology-seo-new .figma {
+        height: 100px;
+        margin-left: 120px;
+        margin-top: -665px;
+    }
+    #technology-seo-new .xd {
+        height: 100px;
+        margin-left: 150px;
+        margin-top: -530px;
+    }
+    #technology-seo-new .sketch {
+        height: 100px;
+        margin-left: 160px;
+        margin-top: -380px;
+    }
+    #technology-seo-new .ai {
+        height: 100px;
+        margin-left: 110px;
+        margin-top: -265px;
+    }
+    #technology-seo-new .ps {
+        height: 103px;
+        margin-left: 159px;
+        margin-top: -40px;
+    }
+    #technology-web-new h1{
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 0;
+    }
+    #technology-web-new .line {
+        margin-left: -275px;
+        margin-top: -20px;
+        height: 95vw;
+    }
+    #technology-web-new .invision {
+        height: 100px;
+        margin-left: 158px;
+        margin-top: -780px;
+    }
+    #technology-web-new .figma {
+        height: 100px;
+        margin-left: 120px;
+        margin-top: -665px;
+    }
+    #technology-web-new .xd {
+        height: 100px;
+        margin-left: 150px;
+        margin-top: -530px;
+    }
+    #technology-web-new .sketch {
+        height: 100px;
+        margin-left: 160px;
+        margin-top: -380px;
+    }
+    #technology-web-new .ai {
+        height: 100px;
+        margin-left: 110px;
+        margin-top: -265px;
+    }
+    #technology-web-new .ps {
+        height: 103px;
+        margin-left: 159px;
+        margin-top: -40px;
+    }
+    #technology-mobile-app h1{
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 0;
+    }
+    #technology-mobile-app .line {
+        margin-left: -275px;
+        margin-top: -20px;
+        height: 95vw;
+    }
+    #technology-mobile-app .invision {
+        height: 100px;
+        margin-left: 158px;
+        margin-top: -780px;
+    }
+    #technology-mobile-app .figma {
+        height: 100px;
+        margin-left: 120px;
+        margin-top: -665px;
+    }
+    #technology-mobile-app .xd {
+        height: 100px;
+        margin-left: 150px;
+        margin-top: -530px;
+    }
+    #technology-mobile-app .sketch {
+        height: 100px;
+        margin-left: 160px;
+        margin-top: -380px;
+    }
+    #technology-mobile-app .ai {
+        height: 100px;
+        margin-left: 110px;
+        margin-top: -265px;
+    }
+    #technology-mobile-app .ps {
+        height: 103px;
+        margin-left: 159px;
+        margin-top: -40px;
+    }
+    #technology-mobile-app-new .line {
+        margin-left: -275px;
+        margin-top: -22px;
+        height: 100vw !important;
+    }
+    /* ########################### UI/UX Design Start ################################ */
+
+    /* ########################### UI/UX Design End ################################ */
+
+    /* ########################### Mobile App Development Start ############################ */
+    
+    /* ########################### Mobile App Development End ############################ */
+
+
+    /* ########################### Digital Marketing Start ############################ */
+
+    /* ########################### Digital Marketing End ############################ */
+
+
+    /* ########################### Gaming App Development Start ############################ */
+
+    /* ########################### Gaming App Development End ############################ */
+
+
+    /* ########################### Web Development Start ############################ */
+
+    #service-homepage p{
+        font-size: 20px;
+    }
+    #web-service{
+        height: 1000px;
+    }
+    .image-overlap-resp-web img{
+        height: 100px;
+    }
+    .image-overlap-att-web img{
+        height: 125px;
+    }
+    .image-overlap-user-web img{
+        height: 135px;
+    }
+    .overlap-web-seo{
+        height: 550px;
+    }
+    .overlap-att-web{
+        height: 575px;
+    }
+    .overlap-user-web{
+        height: 460px;
+    }
+    .overlap-proff-web{
+        height: 570px;
+    }
+    .overlap-speed-web{
+        height: 1500px;
+    }
+
+    /* ########################### Web Development End ############################ */
+
+
+    /* ########################### Software Development Start ############################ */
+
+    .why-omka-software-page-box6 h1, .why-omka-software-page-box5 h1, .why-omka-software-page-box4 h1, .why-omka-software-page-box3 h1, .why-omka-software-page-box2 h1, .why-omka-software-page-box1 h1{
+        font-size: 15px;
+    }
+    .why-omka-software-page-box6 p, .why-omka-software-page-box5 p, .why-omka-software-page-box4 p, .why-omka-software-page-box3 p, .why-omka-software-page-box2 p, .why-omka-software-page-box1 p{
+        font-size: 12px;
+    }
+    #why-omka-software-page{
+        height: 650px;
+    }
+    .image-overlap-second-soft img, .image-overlap-forth-development-soft img, .image-overlap-six-launch-soft img{
+        margin-left: 50px;
+    }
+    .image-overlap-second-soft img, .image-overlap-third-ui-soft img{
+        height: 115px;
+    }
+    .image-overlap-five-test-soft img{
+        height: 190px;
+        width: 75vw;
+        padding: 25px;
+    }
+    .overlap-third-ui-soft, .overlap-forth-development-soft{
+        height: 475px;
+    }
+    .content-overlap-second-soft h1, .content-overlap-third-ui-soft h1, .content-overlap-forth-development-soft h1, .content-overlap-five-test-soft h1, .content-overlap-six-launch-soft h1{
+        font-size: 20px;
+        margin-left: 0;
+    }
+    .content-overlap-second-soft p, .content-overlap-third-ui-soft p, .content-overlap-forth-development-soft p, .content-overlap-five-test-soft p, .content-overlap-six-launch-soft p{
+        font-size: 16px;
+    }
+    .overlap-six-launch-soft{
+        height: 1100px;
+    }
+    .sd-card-image-main {
+        width: 53vw;
+        height: auto !important;
+        margin-left: 11vw;
+    }
+
+    /* ########################### Software Development End ############################ */
+
+
+    /* ########################### Technology Start ############################ */
+
+    .process-technolgy h1{
+        margin-top: -220px;
+    }
+    .process-technolgy4 h1, .process-technolgy5 h1, .process-technolgy3 h1{
+        margin-top: -200px;
+    }
+    .process-technolgy8 h1{
+        margin-top: -180px !important;
+    }
+    .process-technolgy10 h1{
+        margin-top: -220px !important;
+    }
+    .free-cost-technology, .free-cost-technology-mysql, .free-cost-technology-dynamo, .free-cost-technology-firebase{
+        width: 90vw !important;
+    }
+    .free-cost-technology img, .free-cost-technology-mysql img, .free-cost-technology-dynamo img, .free-cost-technology-firebase img{
+        width: 80vw !important;
+    }
+    #technology-mobile-developmet, #technology-web-developmen{
+        height: 1450px;
+    }
+
+    /* ########################### Technology End ############################ */
+
+
+    /* ########################### Ready To Use Start ############################ */
+
+    .child h1 {
+        padding-left: 10px;
+    }
+    .child {
+        width: 65vw;
+    }
+    .bg-three, .bg-six {
+        width: 97vw !important;
+    }
+
+    /* ########################### Ready To Use End ############################ */
+
+
+    /* ########################### Portfolio Start ############################ */
+
+    #portfolio-Mobile h1, #portfolio-Software h1, #portfolio-banner h1, #portfolio-web h1, #portfolio-Digital h1, #portfolio-Gaming h1{
+        font-size: 1.4rem;
+        margin-top: 50px !important;
+    }
+    #portfolio-banner h5, #portfolio-web h5, #portfolio-Mobile h5, #portfolio-Software h5, #portfolio-Gaming h5, #portfolio-Digital h5{
+        font-size: 14px;
+    }
+    #portfolio-banner img, #portfolio-Mobile img, #portfolio-Gaming img{
+        margin-left: 5vw !important;
+        width: 225px !important;
+        margin-top: 50px !important;
+    }
+    #portfolio-web img, #portfolio-Software img, #portfolio-Digital img{
+        margin-left: 5vw !important;
+        margin-top: 50px !important;
+    }
+
+    /* ########################### Portfolio End ############################ */
+
+
+    /* ########################### Our Expertise Start ############################ */
+
+    /* ########################### Our Expertise End ############################ */
+
+
+    /* ########################### About Us Start ############################ */
+
+    .about-us-label1 {
+        margin-left: -170px !important;
+    }
+    .about-us-label2 {
+        margin-left: -210px !important;
+    }
+    .about-us-label3 {
+        margin-left: -168px !important;
+    }
+    .about-us-label4 {
+        margin-left: -140px !important;
+    }
+    .about-us-label5 {
+        margin-left: -170px !important;
+    }
+    .about-us-label6 {
+        margin-left: -185px !important;
+    }
+    .about-us-label7 {
+        margin-left: -100px !important;
+    }
+    .about-us-label8 {
+        margin-left: -93px !important;
+    }
+    .about-us-laptop-image{
+        height: 125px !important;
+        width: 135px !important;
+        margin-left: 45vw !important;
+    }
+
+    /* ########################### About Us End ############################ */
+
+
+    /* ########################### Contact Us Start ############################ */
+
+    /* ########################### Contact Us End ############################ */
+}
+

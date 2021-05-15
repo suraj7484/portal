@@ -62,6 +62,30 @@
         width: 250px;
         height: 300px;
     }
+    .circle-second{
+        margin-left: 440px;
+    }
+    .circle-forth{
+        margin-left: 430px;
+    }
+    .circle-six{
+        margin-left: 450px;
+    }
+    #values{
+        height: 1200px !important;
+    }
+    #values-para-homepage p, #values-para-homepage h3{
+        width: 50vw !important;
+    }
+    #homepage-second-para p, #values-para-homepage h3{
+        width: 50vw !important;
+        margin-top: 25px;
+    }
+    .second-homepage-slide-h3 , .second-homepage-slide-p{
+        width: 50vw !important;
+    }
+
+
     /* ########################### UI/UX Design Start ################################ */
     #banner h1,
     #banner-mobileapp h1,
@@ -322,6 +346,12 @@
         margin-left: 560px;
         margin-top: -970px;
     }
+    .mobile-app-card2, .mobile-app-card3{
+        margin-left: 43% !important;
+    }
+    #dream-app img{
+        width: 365px;
+    }
     /* ########################### Mobile App Development End ############################ */
     /* ########################### Digital Marketing Start ############################ */
     #seo-trafic img {
@@ -480,14 +510,22 @@
     .process-web-box4 p,
     .process-web-box5 p,
     .process-web-box6 p {
-        width: 249px;
+        width: 200px;
         font-size: 1rem;
         padding-left: 40px;
     }
-    .web-deveopment-card-first,
-    .web-deveopment-card-design,
-    .web-deveopment-card-image {
+    .process-web-box1 .wd-image-major,
+    .process-web-box2 .wd-image-major,
+    .process-web-box3 .wd-image-major,
+    .process-web-box4 .wd-image-major,
+    .process-web-box5 .wd-image-major,
+    .process-web-box6 .wd-image-major {
+        width: 200px;
+        height: 280px;
+    }
+    .web-deveopment-card-first, .web-deveopment-card-design, .web-deveopment-card-image {
         margin-left: 100px !important;
+        margin-top: -430px !important;
     }
     .content-overlap-web-seo,
     .content-overlap-att-web,
@@ -539,6 +577,9 @@
     .image-overlap-speed-web img {
         margin-left: 50px;
     }
+    .button-left-web-service button{
+        margin-top: -5px;
+    }
     /* ########################### Web Development End ############################ */
     /* ########################### Software Development Start ############################ */
     #dummy-soft img {
@@ -560,6 +601,15 @@
     .why-omka-software-page-box2 p,
     .why-omka-software-page-box1 p {
         font-size: 14px;
+    }
+    .why-omka-software-page-box6 .sd-image-major,
+    .why-omka-software-page-box5 .sd-image-major,
+    .why-omka-software-page-box4 .sd-image-major,
+    .why-omka-software-page-box3 .sd-image-major,
+    .why-omka-software-page-box2 .sd-image-major,
+    .why-omka-software-page-box1 .sd-image-major {
+        width: 200px;
+        height: 280px;
     }
     .content-overlap-second-soft,
     .content-overlap-forth-development-soft,
@@ -604,7 +654,7 @@
     }
     .sd-card-h4-minor,
     .sd-card-h4 {
-        margin-top: 90px !important;
+        margin-top: 80px !important;
         font-size: 0.8rem !important;
         margin-left: 10px !important;
     }
@@ -615,10 +665,10 @@
         width: 60px;
     }
     .major-minor{
-        margin-top: -290px !important;
+        margin-top: -320px !important;
     }
     .major-major{
-        margin-top: -310px !important;
+        margin-top: -350px !important;
     }
     /* ########################### Software Development End ############################ */
     /* ########################### Technology Start ############################ */
@@ -718,24 +768,146 @@
         width: 375px;
         margin-left: -25px;
     }
-    #portfolio-Mobile img, #portfolio-Gaming img{
+    #portfolio-Mobile img {
         width: 375px;
-        margin-left: -25px;
-        margin-top: 100px;
+        margin-left: -25px !important;
+        margin-top: 75px !important;
+    } 
+    #portfolio-Gaming img{
+        width: 375px;
+        margin-left: -65px !important;
+        margin-top: 75px !important;
     }
     #portfolio-web img{
         margin-left: -25px !important;
-        margin-top: 50px !important;
+        margin-top: 100px !important;
     }
     .button-left-portfolio-web button{
         width: 120px;
         height: 35px;
         font-size: 1.2rem;
     }
+    #portfolio-Software img, #portfolio-Digital img{
+        margin-top: 100px;
+    }
     /* ########################### Portfolio End ############################ */
     /* ########################### Our Expertise Start ############################ */
+    .button-left-about button{
+        margin-left: 300px;
+    }
+    #expert-about h1{
+        font-size: 2rem;
+    }
+    #expert-about p{
+        font-size: 1rem;
+    }
+    #expert-about img {
+        height: 275px;
+        margin-left: 0;
+        margin-top: 0px;
+    }
+    #ui-about-tough h1, #mobile-about-tough h1, #web-about-tough h1, #digital-about-tough h1, #brand-about-tough h1, #erp-about-tough h1, #gaming-about-tough h1, #marketing-about-tough h1, #crypto-about-tough h1{
+        font-size: 50px;
+    }
+    #ui-about-tough img, #mobile-about-tough img, #web-about-tough img, #digital-about-tough img, #brand-about-tough img, #erp-about-tough img, #gaming-about-tough img, #marketing-about-tough img, #crypto-about-tough img {
+        margin-left: 15px;
+        width: 60px;
+    }
+    #ui-about-tough h2, #mobile-about-tough h2, #web-about-tough h2, #digital-about-tough h2, #brand-about-tough h2, #erp-about-tough h2, #gaming-about-tough h2, #marketing-about-tough h2, #crypto-about-tough h2 {
+        margin-left: 81px;
+        margin-top: -65px;
+        font-size: 20px;
+    }
+    #ui-about-tough p, #mobile-about-tough p, #web-about-tough p, #digital-about-tough p, #brand-about-tough p, #erp-about-tough p, #gaming-about-tough p, #marketing-about-tough p, #crypto-about-tough p {
+        margin-left: 81px;
+        font-size: 13px;
+        text-align: justify;
+    }
+    #ui-about-tough , #mobile-about-tough , #web-about-tough , #digital-about-tough , #brand-about-tough , #erp-about-tough , #gaming-about-tough , #marketing-about-tough , #crypto-about-tough {
+        padding-left: 0 !important;
+    }
     /* ########################### Our Expertise End ############################ */
     /* ########################### About Us Start ############################ */
+    .about-us-main-h1{
+        font-size: 1.8rem !important;
+    }
+    .about-us-main-p{
+        font-size: 1rem !important;
+    }
+    .circle-about-different{
+        margin-top: -215px;
+    }
+    .circle-about-different-second, .circle-about-different-third{
+        margin-top: 25px;
+    }
+    .circle-about-different-forth, .circle-about-different-five{
+        margin-top: -145px;
+        margin-left: 475px ;
+    }
+    .circle-about-different h5, .circle-about-different-second h5, .circle-about-different-third h5, .circle-about-different-forth h5, .circle-about-different-five h5{
+        font-size: 16px !important;
+        margin-left: 68px !important;
+        margin-top: -40px !important;
+    }
+    #omkatech-different-about-us img{
+        width: 250px;
+        height: 210px;
+        margin-top: 100px;
+    }
+    .rectangle-get-about-us-banner{
+        width: 219px;
+        margin-left: -5px;
+    }
+    .rectangle-get-about-us-banner img{
+        width: 65px;
+    }
+    .rectangle-get-about-us-banner span{
+        font-size: 25px !important;
+    }
+    .rectangle-get-about-us-banner h1{
+        font-size: 25px !important;
+        margin-left: 145px !important;
+        margin-top: -62px;
+    }
+    .rectangle-get-about-us-banner h5{
+        margin-left: 95px;
+    }
+    .button-left-aboutUs-new button{
+        margin-left: 325px;
+    }
+    .about-us-label1 {
+        margin-left: -220px !important;
+    }
+    .about-us-label2 {
+        margin-left: -258px !important;
+    }
+    .about-us-label3 {
+        margin-left: -220px !important;
+    }
+    .about-us-label4 {
+        margin-left: -185px !important;
+    }
+    .about-us-label5 {
+        margin-left: -220px !important;
+    }
+    .about-us-label6 {
+        margin-left: -243px !important;
+    }
+    .about-us-label7 {
+        margin-left: -154px !important;
+    }
+    .about-us-label8 {
+        margin-left: -145px !important;
+    }
+    .rectangle-get-about-us button{
+        font-size: 25px !important;
+    }
+    .btn:not(:disabled):not(.disabled){
+        font-size: 18px !important;
+    }
+    .rectangle-get-about-us {
+        margin-left: 300px;
+    }
     /* ########################### About Us End ############################ */
     /* ########################### Contact Us Start ############################ */
     #contactUsNew {

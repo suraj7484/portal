@@ -124,7 +124,7 @@ class Ux extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12">
-                                <h5 style={{fontSize : '2rem' , textAlign: 'center' , lineHeight : '1.30' , fontFamily : 'Roboto'}}>Our unique graphic designs create visual concepts that inspire and captivate customers, which helps in making your business become a brand.</h5>
+                                <h5 className = "ux-our-unique-h5" style={{fontSize : '2rem' , textAlign: 'center' , lineHeight : '1.30' , fontFamily : 'Roboto'}}>Our unique graphic designs create visual concepts that inspire and captivate customers, which helps in making your business become a brand.</h5>
                                 <img className = "line-image" src={line} />
                             </div>
                         </div>
@@ -135,13 +135,13 @@ class Ux extends Component {
                 <section class="overlap-second">
                     <div class="contanier">
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-md-12 overlap-second-div">
                                 <div id="overlap-image-second" class="image-overlap-second ">
-                                <ScrollAnimation animateIn='slideInRight'
-                                duration={2}
-                                animateOnce={true}>
-                                <img src={video1} />
-                                </ScrollAnimation>
+                                    <ScrollAnimation animateIn='slideInRight'
+                                    duration={2}
+                                    animateOnce={true}>
+                                    <img src={video1} />
+                                    </ScrollAnimation>
                                 </div>
                                 <div id="overlap-content-second" class="content-overlap-second ">
                                     <h1>1. Product Research</h1>
@@ -212,7 +212,7 @@ class Ux extends Component {
                     <div class="contanier">
                         <div class="row">
                             <div class="col-md-12">
-                                <div id="overlap-content-five" class="image-overlap-five ">
+                                <div id="overlap-image-five" class="image-overlap-five ">
                                 <ScrollAnimation animateIn='slideInLeft'
                                 duration={2}
                                 animateOnce={true}>

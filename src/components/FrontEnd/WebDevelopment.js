@@ -76,8 +76,8 @@ class WebDevelopment extends Component {
 
                 <section id="web-service">
                     <div className="container">
-                        <div className="row">
-                            <div className="col-md-6">
+                        <div className="row wd-first-container">
+                            <div className="col-md-6 ">
                                 <h2>Web Development <strong>SERVICES</strong></h2>
                                 <h3>We Develop Customized Web Portals For Your Precise Business Needs</h3>
                                 <p>Web application development is one of the most sought field by the business                                  
@@ -114,7 +114,7 @@ class WebDevelopment extends Component {
                             <div class="col-md-4 col-sm-4" >
                             
                             <div class="process-web-box1 " >
-                            <img src={require} style={{marginTop : '30px'}}/>
+                            <img className = "wd-image-major" src={require} style={{marginTop : '30px'}}/>
                                     <ScrollAnimation animateIn='zoomIn' >
                                         <h1>Idea</h1>
                                         <p>To analyze the requirement through in-depth research with the help of brilliant tools. </p>
@@ -126,7 +126,7 @@ class WebDevelopment extends Component {
 
                             <div class="col-md-4 col-sm-4" >
                                 <div class="process-web-box2 " >
-                                <img src={blue} style={{marginTop : '30px'}}/>
+                                <img className = "wd-image-major" src={blue} style={{marginTop : '30px'}}/>
                                     <ScrollAnimation animateIn='zoomIn' >
                                         <h1>Sketch</h1>
                                         <p>To draft the design that is related to the research in order to check the feasibility. </p>
@@ -139,7 +139,7 @@ class WebDevelopment extends Component {
                             <div class="col-md-4 col-sm-4" >
 
                                 <div class="process-web-box3 " >
-                                <img src={yellow} style={{marginTop : '30px'}}/>
+                                <img className = "wd-image-major" src={yellow} style={{marginTop : '30px'}}/>
                                     <ScrollAnimation animateIn='zoomIn' >
                                         <h1>Design</h1>
                                         <p>After completing feasibility test, a final<br/> design is prepared by using smart tools. </p>
@@ -156,11 +156,11 @@ class WebDevelopment extends Component {
                             <div class="col-md-4 col-sm-4" >
 
                                 <div class="process-web-box4 " >
-                                <img src={blue} style={{marginTop : '30px'}}/>
+                                <img className = "wd-image-major" src={blue} style={{marginTop : '30px'}}/>
                                     <ScrollAnimation animateIn='zoomIn' >
                                         <h1>Develop</h1>
                                         <p> Now, our development team starts developing the solution according to the finalized design. </p>
-<img className = "web-deveopment-card-first" style={{    marginLeft: '160px',
+<img className = "web-deveopment-card-first web-deveopment-card-develop " style={{    marginLeft: '160px',
     marginTop: '-375px'}} src={img3} />
                                     </ScrollAnimation >
                                 </div>
@@ -171,7 +171,7 @@ class WebDevelopment extends Component {
                             <div class="col-md-4 col-sm-4" >
 
                                 <div class="process-web-box5 " >
-                                <img src={pink} style={{marginTop : '30px'}}/>
+                                <img className = "wd-image-major" src={pink} style={{marginTop : '30px'}}/>
                                     <ScrollAnimation animateIn='zoomIn' >
                                         <h1>Test</h1>
                                         <p>In testing phase, we test every component to make sure that our solution fits the requirement.</p>
@@ -186,7 +186,7 @@ class WebDevelopment extends Component {
                             <div class="col-md-4 col-sm-4" >
 
                                 <div class="process-web-box6 " >
-                                <img src={require} style={{marginTop : '30px'}}/>
+                                <img className = "wd-image-major" src={require} style={{marginTop : '30px'}}/>
                                     <ScrollAnimation animateIn='zoomIn' >
                                         <h1>Celebrate</h1>
                                         <p> We make delivery for the solution and<br/> assist our clients to control and administer solution. </p>

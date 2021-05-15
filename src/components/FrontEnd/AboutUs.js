@@ -110,8 +110,8 @@ class AboutUs extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-6">
-                                <h1 style={{fontWeight  :'700' , fontSize: '2rem', fontFamily: 'Roboto'}}>OMKA TECH BELIEVES THAT THE WORLD REVOLVES AROUND TECHNOLOGY  </h1>
-                                <p style={{fontSize  :'16px' , marginTop : '20px' , fontFamily: 'Roboto'}}>At OMKA TECH we provide end to end business solutions for our clients. We help our clients convert their REQUIREMENT DOCUMENT TO THE FUNCTIONAL TECHNOLOGY. Here we take responsibility for the final end project, we make sure it is developed as per the Client’s taste and preference. We work very closely with our clients to ensure the Agile Development and the best suited business solution to their business.</p>
+                                <h1 className = "about-main-h1" style={{fontWeight  :'700' , fontSize: '2rem', fontFamily: 'Roboto'}}>OMKA TECH BELIEVES THAT THE WORLD REVOLVES AROUND TECHNOLOGY  </h1>
+                                <p className = "about-main-p" style={{fontSize  :'16px' , marginTop : '20px' , fontFamily: 'Roboto'}}>At OMKA TECH we provide end to end business solutions for our clients. We help our clients convert their REQUIREMENT DOCUMENT TO THE FUNCTIONAL TECHNOLOGY. Here we take responsibility for the final end project, we make sure it is developed as per the Client’s taste and preference. We work very closely with our clients to ensure the Agile Development and the best suited business solution to their business.</p>
                             </div>
                             <div className="col-md-6 " >
 
@@ -132,7 +132,7 @@ class AboutUs extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12">
-                                <img src={laptop} />
+                                <img className = "about-us-laptop-image" src={laptop} />
                                 <div className="circle-about-different">
                                     <img id="test-about" src={image1} />
                                     <h5 style={{ fontSize: '20px', marginLeft: '100px', marginTop: '-50px', fontFamily: 'Roboto'}}>Guaranteed On-Time<br/> Delivery </h5>

@@ -51,35 +51,54 @@
     .dropdown {
         padding: 0px 10px;
     }
+    .circle-second{
+        margin-left: 440px;
+    }
+    .circle-forth{
+        margin-left: 430px;
+    }
+    .circle-six{
+        margin-left: 450px;
+    }
+    #values{
+        height: 1275px;
+    }
+    #values-para-homepage p, #values-para-homepage h3{
+        width: 30vw;
+    }
+    
+
+
+
     #logo-footer p {
         margin-left: -20px;
     }
-    #technology-mobile-app #ps {
+    #technology-mobile-app .ps {
         height: 150px;
-        margin-left: 830px;
+        margin-left: 620px;
         margin-top: -130px;
     }
-    #technology-mobile-app #ai {
+    #technology-mobile-app .ai {
         height: 150px;
-        margin-left: 610px;
+        margin-left: 520px;
         margin-top: -250px;
     }
-    #technology-mobile-app #sketch {
+    #technology-mobile-app .sketch {
         height: 150px;
-        margin-left: 830px;
+        margin-left: 580px;
         margin-top: -420px;
     }
-    #technology-mobile-app #xd {
+    #technology-mobile-app .xd {
         height: 150px;
-        margin-left: 850px;
+        margin-left: 580px;
         margin-top: -630px;
     }
-    #technology-mobile-app #figma {
+    #technology-mobile-app .figma {
         height: 150px;
-        margin-left: 820px;
+        margin-left: 520px;
         margin-top: -810px;
     }
-    #technology-mobile-app #invison {
+    #technology-mobile-app .invison {
         height: 150px;
         margin-left: 860px;
         margin-top: -970px;
@@ -286,6 +305,9 @@
     }
     .web-deveopment-card-design {
         margin-top: -440px !important;
+    }
+    #web-service{
+        height: 700px;
     }
     /* ########################### Web Development End ############################ */
     /* ########################### Software Development Start ############################ */

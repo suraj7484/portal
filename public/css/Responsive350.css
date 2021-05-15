@@ -2,6 +2,7 @@
     .dots, .dots-second, .dots-third, .dots-six{
         width: 50px !important;
         padding-left: 25px !important;
+        opacity: 0 !important;
     }
     
     #values-para-homepage .how-we-work-h3{
@@ -38,7 +39,124 @@
         margin-left: 20px;
         font-size: 13px;
     }
+    #values-para-homepage-second h3, #values-para-homepage-forth h3, #values-para-homepage-six h3{
+        margin-top: 15px !important;
+    }
+    #values {
+        height: 1100px !important;
+    }
+    #homepage-second-para p, #values-para-homepage h3 {
+        width: 50vw !important;
+        margin-top: -35px;
+    }
+
+
+
+
+
+    #logo-footer p{
+        font-size: 0.8rem;
+        margin-top: -15% !important;
+    }
+    #technology .line {
+        margin-left: -250px;
+        margin-top: -62px;
+        height: 85vw;
+    }
+
+    #technology .invision {
+        height: 100px;
+        margin-left: 178px;
+        margin-top: -780px;
+    }
+    #technology .figma {
+        height: 100px;
+        margin-left: 140px;
+        margin-top: -665px;
+    }
+    #technology .xd {
+        height: 100px;
+        margin-left: 170px;
+        margin-top: -530px;
+    }
+    #technology .sketch {
+        height: 100px;
+        margin-left: 180px;
+        margin-top: -380px;
+    }
+    #technology .ai {
+        height: 100px;
+        margin-left: 130px;
+        margin-top: -265px;
+    }
+    #technology .ps {
+        height: 103px;
+        margin-left: 179px;
+        margin-top: -40px;
+    }
+    #technology-mobile-app-new .line {
+        margin-left: -250px;
+        margin-top: -18px;
+        height: 85vw;
+    }
+
+    #technology-mobile-app-new .invision {
+        height: 100px;
+        margin-left: 178px;
+        margin-top: -780px;
+    }
+    #technology-mobile-app-new .figma {
+        height: 100px;
+        margin-left: 140px;
+        margin-top: -665px;
+    }
+    #technology-mobile-app-new .xd {
+        height: 100px;
+        margin-left: 170px;
+        margin-top: -530px;
+    }
+    #technology-mobile-app-new .sketch {
+        height: 100px;
+        margin-left: 180px;
+        margin-top: -380px;
+    }
+    #technology-mobile-app-new .ai {
+        height: 100px;
+        margin-left: 130px;
+        margin-top: -265px;
+    }
+    #technology-mobile-app-new .ps {
+        height: 103px;
+        margin-left: 179px;
+        margin-top: -40px;
+    }
+    #technology .line {
+        height: 85vw !important;
+    }
+    #technology-mobile-app-new .line {
+        margin-left: -275px;
+        margin-top: -22px;
+        height: 85vw !important;
+    }
+    
     /* ########################### UI/UX Design Start ################################ */
+
+    .image img{
+        margin-top: -875px;
+    }
+    .content{
+        margin-left: -22.5vw;
+    }
+    .ux-our-unique-h5 {
+        font-size: 1rem !important;
+        margin-top: 200px;
+    }
+    .image-overlap-second img, .image-overlap-six img{
+        margin-left: -100px;
+    }
+    .image-overlap-forth img{
+        margin-left: -85px;
+    }
 
     /* ########################### UI/UX Design End ################################ */
 
@@ -48,6 +166,19 @@
 
 
     /* ########################### Digital Marketing Start ############################ */
+
+    .overlap-seo, .overlap-smo, .overlap-content, .overlap-ppc {
+        height: 540px !important;
+    }
+    .overlap-smm {
+        height: 1375px !important;
+    }
+    #web-design-seo ul li p, #seo-seo ul li p, #smm-seo ul li p, #sem-seo ul li p{
+        width: 85vw !important;
+    }
+    #technology-seo-new .line{
+        height: 93vw !important;
+    }
 
     /* ########################### Digital Marketing End ############################ */
 
@@ -69,6 +200,34 @@
 
     /* ########################### Technology Start ############################ */
 
+    .process-technolgy h1 {
+        margin-top: -200px !important;
+    }
+    .process-technolgy2 h1{
+        margin-top: -220px;
+    }
+    .process-technolgy7 h1{
+        margin-top: -220px !important;
+    }
+    .process-technolgy8 h1 {
+        margin-top: -160px !important;
+    }
+    .process-technolgy10 h1 {
+        margin-top: -200px !important;
+    }
+    .process-technolgy11 h1{
+        margin-top: -180px !important;
+    }
+    .free-cost-technology, .free-cost-technology-mysql, .free-cost-technology-dynamo, .free-cost-technology-firebase{
+        margin-left: 5vw !important;
+    }
+    .process-technolgy4 h1{
+        margin-top: -175px !important;
+    }
+    #technology-mobile-developmet, #technology-web-developmen {
+        height: 1550px !important;
+    }
+
     /* ########################### Technology End ############################ */
 
 
@@ -78,6 +237,23 @@
 
 
     /* ########################### Portfolio Start ############################ */
+
+    #portfolio-Mobile h1, #portfolio-Software h1, #portfolio-banner h1, #portfolio-web h1, #portfolio-Digital h1, #portfolio-Gaming h1{
+        font-size: 1.6rem;
+        margin-top: 40px !important;
+    }
+    #portfolio-banner h5, #portfolio-web h5, #portfolio-Mobile h5, #portfolio-Software h5, #portfolio-Gaming h5, #portfolio-Digital h5{
+        font-size: 16px;
+    }
+    #portfolio-banner img, #portfolio-Mobile img, #portfolio-Gaming img{
+        margin-left: 5vw !important;
+        width: 250px !important;
+        margin-top: 75px !important;
+    }
+    #portfolio-web img, #portfolio-Software img, #portfolio-Digital img{
+        margin-left: 5vw !important;
+        margin-top: 50px !important;
+    }
 
     /* ########################### Portfolio End ############################ */
 
@@ -94,5 +270,104 @@
 
     /* ########################### Contact Us Start ############################ */
 
+    .contactInput h2{
+        font-size: 1rem;
+    }
+    #contactUsNew{
+        height: 800px;
+    }
+
     /* ########################### Contact Us End ############################ */
 }
+
+@media only screen and (max-width: 375px){
+    .about-us-label1 {
+        margin-left: -220px !important;
+    }
+    .about-us-label2 {
+        margin-left: -258px !important;
+    }
+    .about-us-label3 {
+        margin-left: -220px !important;
+    }
+    .about-us-label4 {
+        margin-left: -185px !important;
+    }
+    .about-us-label5 {
+        margin-left: -220px !important;
+    }
+    .about-us-label6 {
+        margin-left: -243px !important;
+    }
+    .about-us-label7 {
+        margin-left: -154px !important;
+    }
+    .about-us-label8 {
+        margin-left: -145px !important;
+    }
+    .sd-card-image-main {
+        width: 45vw;
+        height: auto !important;
+        margin-left: 15vw;
+    }
+    .sd-card-h4-minor, .sd-card-h4{
+        margin-top: 74px !important;
+    }
+    .sd-card-image-minor {
+        margin-top: -285px !important;
+    }
+    .dropdown-content {
+        position: absolute !important;
+        right: 0 !important;
+        left: 10px !important;
+        width: 280px !important;
+        height: auto !important;
+    }
+    .child {
+        width: 68vw;
+    }
+    .bg-three, .bg-six {
+        width: 95vw !important;
+    }
+    #technology-web-developmen, #technology-mobile-developmet {
+        height: 1650px;
+        margin-top: 0 !important;
+    }
+    .process-technolgy10 h1 {
+        margin-top: -155px !important;
+    }
+    .process-technolgy11 h1 {
+        margin-top: -140px !important;
+    }
+    #technology-mobile-app-new .line {
+        margin-left: -275px;
+        margin-top: -22px;
+        height: 75vw;
+    }
+}
+@media only screen and (max-width: 360px){
+    .sd-card-image-main {
+        width: 47vw;
+        height: auto !important;
+        margin-left: 14vw;
+    }
+    .child {
+        width: 65vw;
+    }
+    .bg-three, .bg-six {
+        width: 93vw !important;
+    }
+    #technology-web-developmen{
+        height: 1575px;
+    }
+    #technology-mobile-developmet{
+        height: 1575px;
+    }
+    .process-technolgy10 h1 {
+        margin-top: -150px !important;
+    }
+    .process-technolgy11 h1 {
+        margin-top: -130px !important;
+    }
+}
+

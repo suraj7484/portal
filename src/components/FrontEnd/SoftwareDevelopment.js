@@ -95,7 +95,7 @@ class SoftwareDevelopment extends Component {
                         <div className="row">
                             <div class="col-md-4 col-sm-4" >
                                 <div class="why-omka-software-page-box1 " >
-                                <img style={{marginTop : '30px'}} src={iconShoose} />
+                                <img className = "sd-image-major" style={{marginTop : '30px'}} src={iconShoose} />
                                     <ScrollAnimation animateIn='zoomIn' >
                                         <h1>Automate your Business Processes</h1>
                                         <p>Switch from manual business management to automatic business process for more productivity. We help you in providing best solution where you can automate your business model like the CMS system. 
@@ -107,7 +107,7 @@ class SoftwareDevelopment extends Component {
 
                             <div class="col-md-4 col-sm-4" >
                                 <div class="why-omka-software-page-box2 " >
-                                <img style={{marginTop : '30px'}} src={iconShoose} />
+                                <img className = "sd-image-major" style={{marginTop : '30px'}} src={iconShoose} />
                                     <ScrollAnimation animateIn='zoomIn' >
                                         <h1>Grow Well and Grow Together</h1>
                                         <p>Our team will be in constant touch with you to understand your business model, your competitors, the structure of working and help you grow like the ERP solutions.</p>
@@ -118,7 +118,7 @@ class SoftwareDevelopment extends Component {
                             <div class="col-md-4 col-sm-4" >
 
                                 <div class="why-omka-software-page-box3 " >
-                                <img style={{marginTop : '30px'}} src={iconShoose} />
+                                <img className = "sd-image-major" style={{marginTop : '30px'}} src={iconShoose} />
                                     <ScrollAnimation animateIn='zoomIn' >
                                         <h1>Increase your Enterprise Efficiency</h1>
                                         <p>We use the OKR methodology which means that there will be certain objectives and key results which helps organizations to keep transparency in the work like CRM solutions</p>
@@ -133,7 +133,7 @@ class SoftwareDevelopment extends Component {
                             <div class="col-md-4 col-sm-4" >
 
                                 <div class="why-omka-software-page-box4 " >
-                                <img style={{marginTop : '70px'}} src={iconShoose} />
+                                <img className = "sd-image-major" style={{marginTop : '70px'}} src={iconShoose} />
                                     <ScrollAnimation animateIn='zoomIn' >
                                         <h1>Optimize your Employee Potential</h1>
                                         <p>Easily monitor the employee performance by the HRMS portal. There will be different managers, employees who can constantly monitor the task given to them and  the areas of improvement.  </p>
@@ -146,7 +146,7 @@ class SoftwareDevelopment extends Component {
                             <div class="col-md-4 col-sm-4" >
 
                                 <div class="why-omka-software-page-box5 " >
-                                <img style={{marginTop : '70px'}} src={iconShoose} />
+                                <img className = "sd-image-major" style={{marginTop : '70px'}} src={iconShoose} />
                                     <ScrollAnimation animateIn='zoomIn' >
                                         <h1>Get Real Time Data Processing  </h1>
                                         <p>Our software will process the real time data where the system will automatically refresh itself and in no time it will be able to upload any changes/updates that have taken place like BPMS solutions.</p>
@@ -159,7 +159,7 @@ class SoftwareDevelopment extends Component {
                             <div class="col-md-4 col-sm-4" >
 
                                 <div class="why-omka-software-page-box6 " >
-                                <img style={{marginTop : '70px'}} src={iconShoose} />
+                                <img className = "sd-image-major" style={{marginTop : '70px'}} src={iconShoose} />
                                     <ScrollAnimation animateIn='zoomIn' >
                                         <h1 >Process Mapping and Security </h1>
                                         <p>We create a secure business model along with mapping solution for your business organization which is hosted on the client owned cloud server to ensure data security and easy accessibility. </p>
@@ -176,7 +176,7 @@ class SoftwareDevelopment extends Component {
 
                  <section id="work-homepage">
                     <div class="container" >
-                        <p class="new">Software Solutions process</p>
+                        <p class="new new3">Software Solutions process</p>
                         <hr />
                     </div>
                 </section>

@@ -210,7 +210,7 @@ build top quality hybrid mobile.</p>
                     <div className="container">
                         <div className="row">
                             <div className="col-md-4">
-                                <div class="process-technolgy " >
+                                <div class="process-technolgy process-technolgy7" >
                                 <img className = "technology-types-image" style={{marginTop : '30px'}} src={iconShoose} />
                                     <h1>Native</h1>
                                     <p>We equipped with cutting-edge technology to customize native android
@@ -219,7 +219,7 @@ customers business requirements.</p>
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-4" >
-                                <div class="process-technolgy2 " >
+                                <div class="process-technolgy2 process-technolgy8" >
                                 <img className = "technology-types-image" style={{marginTop : '30px'}} src={iconShoose} />
                                     <h1>Unity</h1>
                                     <p>Unity is the robust game development
@@ -230,7 +230,7 @@ and 2D games.</p>
 
                             <div class="col-md-4 col-sm-4" >
 
-                                <div class="process-technolgy3 " >
+                                <div class="process-technolgy3 process-technolgy9" >
                                 <img className = "technology-types-image" style={{marginTop : '30px'}} src={iconShoose} />
                                     <h1>Hybrid</h1>
                                     <p>Hybrid application is a mixture of
@@ -242,7 +242,7 @@ and on mobile solution.</p>
                         </div>
                         <div className="row">
                             <div className="col-md-4">
-                                <div class="process-technolgy " >
+                                <div class="process-technolgy process-technolgy10 process-technolgy7" >
                                 <img className = "technology-types-image" style={{marginTop : '30px'}} src={iconShoose} />
                                     <h1>PhoneGap</h1>
                                     <p>It is an open source platform for buil-
@@ -252,7 +252,7 @@ CSS..</p>
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-4" >
-                                <div class="process-technolgy2 " >
+                                <div class="process-technolgy2 process-technolgy8 process-technolgy11" >
                                 <img className = "technology-types-image" style={{marginTop : '30px'}} src={iconShoose} />
                                     <h1>Swift</h1>
                                     <p>Swift is a robust and scalable program-
@@ -263,7 +263,7 @@ also supports all IOS platforms.</p>
 
                             <div class="col-md-4 col-sm-4" >
 
-                                <div class="process-technolgy3 " >
+                                <div class="process-technolgy3 process-technolgy9" >
                                 <img className = "technology-types-image" style={{marginTop : '30px'}} src={iconShoose} />
                                     <h1>Ionic</h1>
                                     <p>Ionic is the open-source SDK application

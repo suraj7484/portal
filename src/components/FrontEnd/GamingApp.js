@@ -84,7 +84,7 @@ class GamingApp extends Component {
                 <section id="service-gaming">
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-6">
+                            <div className="col-md-6 ga-unity-content">
                                 <h1>Unity Game Development</h1>
                                 {/* <h5>Unmatched End-to-End Execution</h5> */}
                                 <p>Unity is a specially created engine by Unity Technologies for Gaming<br/> Applications. Any type of application - 2D, 3D , Virtual reality, augmented<br/> reality games can be build. Our dedicated gaming developers have <br/>created multiple games on unity that are live and generating a good <br/>revenue for our clients. </p>

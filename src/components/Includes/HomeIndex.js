@@ -128,7 +128,7 @@ class HomeIndex extends Component {
                                 </div> */}
                                 <div className="col-md-2 col-div-spans">
                                 
-                                    <img  className = "pic-1" style={{ marginLeft : '-100px' , marginTop : '50px'}} class=" pic-1" src={Demo5} />
+                                    <img  className = "pic-1 homepage-first-picture" style={{ marginLeft : '-100px' , marginTop : '50px'}} class=" pic-1" src={Demo5} />
                                 </div>
                                 <div className="col-md-2 col-div-spans">
                                 
@@ -211,7 +211,7 @@ class HomeIndex extends Component {
 
                                 <ReactWOW animation='slideInLeft'>
 
-                                    <h3 style={{ marginLeft: '80px' }}>1.Research & Analyse</h3>
+                                    <h3 className = "first-homepage-slide-h3" style={{ marginLeft: '80px' }}>1.Research & Analyse</h3>
                                     <p style={{ marginLeft: '80px' }}>Our team analyses your requirement deeply and<br />  make a plan and provide the best possible solution<br /> for the product and business. It is very important <br/>to do a through research and discussion before starting.</p>
 
                                 </ReactWOW>
@@ -238,10 +238,10 @@ class HomeIndex extends Component {
                                     </div>
                                 </ReactWOW>
                             </div>
-                            <div id="values-para-homepage" class="col-md-3 " >
+                            <div id="values-para-homepage homepage-second-para" class="col-md-3 " >
                                 <ReactWOW animation='slideInRight'>
-                                    <h3 className = "how-we-work-h3" style={{ marginLeft: '-80px' }}>2.Design & Artwork</h3>
-                                    <p className = "how-we-work-p" style={{ marginLeft: '-80px' }}>Browsing and finalizing the latest technologies, designing and prototyping an exceptional UI for better customer experience. We provide the Wireframe designs, review them and if required refine them after which the development process starts.</p>
+                                    <h3 className = "how-we-work-h3 second-homepage-slide-h3" style={{ marginLeft: '-80px' }}>2.Design & Artwork</h3>
+                                    <p className = "how-we-work-p second-homepage-slide-p" style={{ marginLeft: '-80px' }}>Browsing and finalizing the latest technologies, designing and prototyping an exceptional UI for better customer experience. We provide the Wireframe designs, review them and if required refine them after which the development process starts.</p>
                                 </ReactWOW>
                                 <div class="dots-second">
                                 </div>
@@ -249,9 +249,9 @@ class HomeIndex extends Component {
                         </div>
 
                         <div class="row" id="demo">
-                            <div id="values-para-homepage" class="col-md-3" style={{ marginLeft: '-60px', marginTop: '-40px' }} >
+                            <div id="values-para-homepage" class="col-md-3 homepage-third-para" style={{ marginLeft: '-60px', marginTop: '-40px' }} >
                                 <ReactWOW animation='slideInLeft'>
-                                    <h3 style={{ marginLeft: '80px' }}>3.Develop & Build</h3>
+                                    <h3 className = "third-homepage-slide-h3" style={{ marginLeft: '80px' }}>3.Develop & Build</h3>
                                     <p style={{ marginLeft: '80px' }}>The next step is the development of the core functionalities along with the advanced features<br/> where we first switch graphic designs in HTML/<br/>CSS code and then develop the style and structure<br/>  as well as optimize the code.</p>
                                 </ReactWOW>
                                 <div class="dots">
@@ -274,9 +274,9 @@ class HomeIndex extends Component {
                                     </div>
                                 </ReactWOW>
                             </div>
-                            <div id="values-para-homepage" class="col-md-3 " style={{ marginTop: '-60px' }}>
+                            <div id="values-para-homepage" class="col-md-3 homepage-forth-para" style={{ marginTop: '-60px' }}>
                                 <ReactWOW animation='slideInRight'>
-                                    <h3 style={{ marginLeft: '-80px' }}>4.Testing & Bug-Fixing</h3>
+                                    <h3 className = "forth-homepage-slide-h3" style={{ marginLeft: '-80px' }}>4.Testing & Bug-Fixing</h3>
                                     <p style={{ marginLeft: '-80px' }}>We test the project and make sure it is working fine across different browsers, various operating systems and different devices. It is also important to search for all possible errors, and deliver a digital solution that meets your specifications.
 											</p>
                                 </ReactWOW>
@@ -287,9 +287,9 @@ class HomeIndex extends Component {
 
                         <div class="row" id="demo" >
 
-                            <div id="values-para-homepage" class="col-md-3" style={{ marginTop: '-100px', marginLeft: '-60px' }}>
+                            <div id="values-para-homepage" class="col-md-3 homepage-five-para" style={{ marginTop: '-100px', marginLeft: '-60px' }}>
                                 <ReactWOW animation='slideInLeft'>
-                                    <h3 style={{ marginLeft: '80px' }}>5.Launch & Get Started</h3>
+                                    <h3 className = "five-homepage-slide-h3" style={{ marginLeft: '80px' }}>5.Launch & Get Started</h3>
                                     <p style={{ marginLeft: '80px' }}>The final step where the project is migrated to the hosting server and successfully launched and is visible to all the visitors. The hosting process is done by OMKATECH and we guarantee 100% on-time delivery.
 											</p>
                                 </ReactWOW>
@@ -317,9 +317,9 @@ class HomeIndex extends Component {
                                 </ReactWOW>
                             </div>
 
-                            <div id="values-para-homepage" class="col-md-3" style={{ marginTop: '-120px' }}>
+                            <div id="values-para-homepage" class="col-md-3 homepage-six-para" style={{ marginTop: '-120px' }}>
                                 <ReactWOW animation='slideInRight'>
-                                    <h3 style={{ marginLeft: '-80px' }}>6.Promotion & Maintenance</h3>
+                                    <h3 className = "six-homepage-slide-h3" style={{ marginLeft: '-80px' }}>6.Promotion & Maintenance</h3>
                                     <p style={{ marginLeft: '-80px' }}>Once the project is live, the process does not stop here. It is important to promote your project for more visibility and also keep on upgrading for a long run as the digital field is getting advanced day by day.
 											</p>
                                 </ReactWOW>

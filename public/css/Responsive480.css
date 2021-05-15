@@ -1,39 +1,600 @@
 @media only screen and (max-width: 480px){
+
+    .dots, .dots-second, .dots-third, .dots-six{
+        width: 50px !important;
+        padding-left: 25px !important;
+    }
+
+    #banner{
+        height: 450px;
+    }
+    .button-left-homepage button{
+        margin-left: 20vw;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 0.8rem;
+    }
+    .dropdown-about{
+        padding: 0 10px;
+    }
+    .dropdown-content-about{
+        position: absolute;
+        right: 0px;
+        height: 85px;
+        width: 50px;
+    }
+    #banner-homepage h5, #banner-homepage h3, #banner-homepage h2, #banner-homepage h1{
+        margin-left: 15vw !important;
+    }
+    .dropdown-content-about-h5{
+        font-size: 0.8rem !important;
+        color: gray;
+        text-transform: uppercase;
+        padding: 4px 0 0 0;
+    }
+
+
+
+
+    .dropdown-content{
+        position: absolute;
+        right: 0;
+        left: 60px;
+        width: 325px;
+    }
+
+    .dropdown-content-h5{
+        font-size: 0.7rem;
+        margin-left: 0px !important;
+    }
+    #values-para-homepage-second p{
+        margin-left: 180px !important;
+        margin-bottom: 20px !important;
+    }
+    .cards-div-main{
+        width: 100% !important;
+        overflow-x: auto !important;
+        padding-left: 0px !important;
+        margin-bottom: 150px !important;
+    }
+    .cards-div-main > .col-md-2{
+        width: auto !important;
+        padding: 0 5px;
+    }
+    .image-1{
+        width: 100px !important;
+        height: 150px !important;
+    }
+    .pic-1{
+        width: 100px !important;
+        height: 150px !important;
+        padding: 5px !important;
+        overflow: hidden !important;
+    }
+    .desktop-how-we-work-view{
+        width: 100% !important;
+        overflow-x: hidden !important;
+    }
+    .desktop-how-we-work-view > .container { 
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .slideInRight{
+        margin-left: 130px !important;
+        margin-top: 0px !important;
+    }
+    .circle, .circle-third, .circle-five{
+        margin-left: 275px !important;
+        margin-top: 0px !important;
+    }
+    .circle-second, .circle-forth, .circle-six{
+        margin-left: 5px !important;
+        margin-top: 0px !important;
+    }
+    .slider-main{
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
+    }
+    .carousel-caption-textmonail p {
+        font-size: 12px;
+        margin: auto;
+        width: 65%;
+        margin-bottom: 10px;
+        margin-left: 127px;
+        margin-top: -90px;
+        color: #959393;
+        text-align: justify;
+        font-family: 'Roboto';
+        font-weight: 500px;
+    }
+    .img-area {
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-left: 5px;
+    }
+    .carousel-caption-textmonail h3{
+        margin-left: -20px;
+        font-size: 13px;
+    }
+    .carousel-caption-textmonail h4{
+        margin-left: -35px;
+        font-size: 13px;
+    }
+    .row{
+        flex-wrap: nowrap;
+    }
+    #values-para-homepage-second p{
+        margin-bottom: 50px !important;
+    }
+    .circle{
+        margin-top: -40px !important;
+        width: 70px;
+        height: 70px;
+    }
+    .circle img{
+        width: 55px !important;
+    }
+    .circle img {
+        position: absolute;
+        top: 6px;
+        margin-left: 6px;
+        height: auto;
+    }
+    .circle-second, .circle-forth, .circle-six{
+        margin-bottom: -40px;
+        margin-top: -25px !important;
+    }
+    .circle-third img {
+        position: absolute;
+        top: 14px;
+        margin-left: 15px;
+        height: auto;
+        width: 50px;
+    }
+    .circle-second {
+        height: 80px;
+        width: 80px;
+    }
+    .circle-third {
+        width: 80px;
+        height: 80px;
+    }
+    .circle-forth{
+        width: 80px;
+        height: 80px;
+    }
+    .circle-forth img {
+        top: 15px;
+        margin-left: 15px;
+        height: auto;
+        width: 50px;
+    }
+    .circle-five{
+        width: 80px;
+        height: 80px;
+        margin-top: 0px !important;
+    }
+    .circle-five img {
+        top: 15px;
+        margin-left: 15px;
+        height: auto;
+        width: 50px;
+    }
+    .circle-six{
+        height: 80px;
+        width: 80px;
+    }
+    .circle-six img {
+        top: 12px;
+        margin-left: 14px;
+        height: auto;
+        width: 50px;
+    }
+    .mobile-work-home-page-tagline p{
+        font-size: 14px !important;
+    }
+    .button-left-homepage-mobile button{
+        margin-top: 75px;
+        margin-left: 35vw;
+    }
+    #services-footer{
+        margin-left: 0;
+    }
+    #contact img {
+        height: 40vw;
+        background-color: transparent;
+        width: 70vw;
+        margin-left: 0vw;
+        margin-right: 5vw;
+        margin-top: 0;
+    }
+    .technology-h1 {
+        margin-left: auto !important;
+        font-size: 1.5rem;
+        width: 100vw;
+        text-align: center;
+    }
+    .mainBackgroundImage {
+        display: flex !important;
+        width: 250px !important;
+        height: 300px !important;
+    }
+    .whyCardPara{
+        width: 200px !important;
+    }
+
+
+
+
+
+    #technology .line {
+        margin-left: -275px;
+        margin-top: -65px;
+        height: 75vw;
+    }
+    #contact img{
+        margin-left: 20vw;
+    }
+    #logo-footer p{
+        margin-left: auto;
+        margin-bottom: 0;
+    }
+    .form-control{
+        width: 85vw !important;
+    }
+    .rectangle{
+        margin-left: 90vw;
+    }
+    #technology-seo-new h1{
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 0;
+    }
+    #technology-seo-new .line {
+        margin-left: -275px;
+        margin-top: -20px;
+        height: 75vw;
+    }
+    #technology-seo-new .invision {
+        height: 100px;
+        margin-left: 208px;
+        margin-top: -780px;
+    }
+    #technology-seo-new .figma {
+        height: 100px;
+        margin-left: 170px;
+        margin-top: -665px;
+    }
+    #technology-seo-new .xd {
+        height: 100px;
+        margin-left: 200px;
+        margin-top: -530px;
+    }
+    #technology-seo-new .sketch {
+        height: 100px;
+        margin-left: 210px;
+        margin-top: -380px;
+    }
+    #technology-seo-new .ai {
+        height: 100px;
+        margin-left: 160px;
+        margin-top: -265px;
+    }
+    #technology-seo-new .ps {
+        height: 103px;
+        margin-left: 209px;
+        margin-top: -40px;
+    }
+    #technology-web-new h1{
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 0;
+    }
+    #technology-web-new .line {
+        margin-left: -275px;
+        margin-top: -20px;
+        height: 75vw;
+    }
+    #technology-web-new .invision {
+        height: 100px;
+        margin-left: 208px;
+        margin-top: -780px;
+    }
+    #technology-web-new .figma {
+        height: 100px;
+        margin-left: 170px;
+        margin-top: -665px;
+    }
+    #technology-web-new .xd {
+        height: 100px;
+        margin-left: 200px;
+        margin-top: -530px;
+    }
+    #technology-web-new .sketch {
+        height: 100px;
+        margin-left: 210px;
+        margin-top: -380px;
+    }
+    #technology-web-new .ai {
+        height: 100px;
+        margin-left: 160px;
+        margin-top: -265px;
+    }
+    #technology-web-new .ps {
+        height: 103px;
+        margin-left: 209px;
+        margin-top: -40px;
+    }
+    #technology-mobile-app h1{
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 0;
+    }
+    #technology-mobile-app .line {
+        margin-left: -275px;
+        margin-top: -20px;
+        height: 75vw;
+    }
+    #technology-mobile-app .invision {
+        height: 100px;
+        margin-left: 208px;
+        margin-top: -780px;
+    }
+    #technology-mobile-app .figma {
+        height: 100px;
+        margin-left: 170px;
+        margin-top: -665px;
+    }
+    #technology-mobile-app .xd {
+        height: 100px;
+        margin-left: 200px;
+        margin-top: -530px;
+    }
+    #technology-mobile-app .sketch {
+        height: 100px;
+        margin-left: 210px;
+        margin-top: -380px;
+    }
+    #technology-mobile-app .ai {
+        height: 100px;
+        margin-left: 160px;
+        margin-top: -265px;
+    }
+    #technology-mobile-app .ps {
+        height: 103px;
+        margin-left: 209px;
+        margin-top: -40px;
+    }
+    #technology-gaming-new .line {
+        margin-left: -275px;
+        margin-top: -22px;
+        height: 75vw;
+    }
+    
+
+
     /* ########################### UI/UX Design Start ################################ */
+
+    .content{
+        margin-left: -32vw;
+    }
 
     /* ########################### UI/UX Design End ################################ */
 
     /* ########################### Mobile App Development Start ############################ */
+
+    .mobile-app-card1 {
+        margin-left: 0vw !important;
+    }
+    .mobile-app-card2 {
+        margin-left: 0vw !important;
+        margin-top: 35%;
+        margin-bottom: 0%;
+    }
+    .mobile-app-card3 {
+        margin-left: 0vw !important;
+        margin-top: 35%;
+    }
+    .mobile-app-card4 {
+        margin-left: 0vw !important;
+        margin-top: 0%;
+    }
     
     /* ########################### Mobile App Development End ############################ */
 
 
     /* ########################### Digital Marketing Start ############################ */
 
+    .button-left-digital button{
+        margin-top: 0 !important;
+    }
+    #web-design-seo h2, #seo-seo h2, #smm-seo h2, #sem-seo h2{
+        font-size: 1.6rem;
+    }
+    #web-design-seo h1, #seo-seo h1, #smm-seo h1, #sem-seo h1{
+        font-size: 2.2rem;
+    }
+    #seo-trafic p{
+        font-size: 0.9rem !important;
+        width: 85vw !important;
+    }
+    #seo-trafic img{
+        width: 90vw !important;
+        height: auto !important;
+        margin-left: 0 !important;
+    }
+    #web-design-seo h1, #seo-seo h1, #smm-seo h1, #sem-seo h2, #web-design-seo h2, #seo-seo h2, #smm-seo h2, #sem-seo h2{
+        margin-left: 4vw !important;
+    }
+    #web-design-seo, #seo-seo, #sem-seo{
+        height: 400px !important;
+    }
+    #web-design-seo{
+        margin-top: 0 !important;
+    }
+    #smm-seo{
+        height: 500px !important;
+    }
+    #seo-seo{
+        margin-top: 240px !important;
+    }
+    #sem-seo{
+        margin-top: 250px !important;
+        height: 350px !important;
+    }
+    #web-design-seo img, #sem-seo img {
+        margin-left: 0vw !important;
+        width: 90vw !important;
+        margin-top: 0 !important;
+    }
+    #seo-seo img, #smm-seo img {
+        margin-left: 0 !important;
+        width: 90vw !important;
+        margin-top: 75px !important;
+    }
+    
+
     /* ########################### Digital Marketing End ############################ */
 
 
     /* ########################### Gaming App Development Start ############################ */
+
+    #work-homepage p.new{
+        margin-top: 25px;
+    }
+    .ga-unity-content{
+        margin-top: -100px;
+    }
+    #service-gaming-html img{
+        margin-top: 0;
+    }
+    #service-gaming img{
+        margin-top: 0 ;
+    }
+    #service-gaming-hd img{
+        margin-top: 0;
+    }
+    #service-gaming-ios h1{
+        margin-top: -75px;
+    }
+    #service-gaming-android h1{
+        margin-top: 100px;
+    }
+    #service-gaming-android img{
+        margin-top: 0;
+    }
+    #service-gaming-hd h1{
+        margin-top: 100px;
+    }
+    #why-choose-us-gaming-new{
+        height: 1000px;
+    }
+    .gaming-app-card-h5, .gaming-app-card-h5-exc{
+        width: 125px;
+    }
+    .gaming-app-card{
+        width: 60vw;
+        margin-left: 15vw;
+    }
+    .gaming-app-card-h5, .gaming-app-card-h5-exc{
+        margin-left: 27vw !important;
+    }
 
     /* ########################### Gaming App Development End ############################ */
 
 
     /* ########################### Web Development Start ############################ */
 
+    #overlap-content-second{
+        margin-left: 5vw;
+    }
+    .overlap-web-seo, .overlap-att-web{
+        height: 525px;
+    }
+    .overlap-resp-web{
+        height: 410px;
+    }
+    #web-service img{
+        margin-left: 5vw !important;
+    }
+    .overlap-speed-web{
+        height: 1425px;
+    }
+    #service-homepage p{
+        font-size: 20px;
+    }
+
     /* ########################### Web Development End ############################ */
 
 
     /* ########################### Software Development Start ############################ */
+
+    .overlap-six-launch-soft{
+        height: 1100px;
+    }
+    .sd-card-image-main {
+        width: 50vw;
+        height: auto !important;
+        margin-left: 10vw;
+    }
+    .sd-card-h4-minor, .sd-card-h4 {
+        margin-top: 80px !important;
+        font-size: 0.65rem !important;
+    }
+    .sd-card-image-minor, .sd-card-image-major{
+        margin-left: 28vw !important;
+        margin-top: -250px !important;
+    }
+    .major-major {
+        margin-top: -270px !important;
+    }
+    .sd-why-cu-h5 {
+        font-size: 13px !important;
+        margin-top: -175px !important;
+        margin-left: -17vw;
+    }
+    .sd-card-image-main{
+        margin-top: 25px !important;
+    }
+    #why-choose-us-software-new{
+        height: 925px;
+    }
 
     /* ########################### Software Development End ############################ */
 
 
     /* ########################### Technology Start ############################ */
 
+    .free-cost-technology, .free-cost-technology-mysql, .free-cost-technology-dynamo, .free-cost-technology-firebase {
+        margin-left: 10vw;
+    }
+    #expert-about-us img{
+        width: 90vw !important;
+    }
+    #technology-mobile-developmet{
+        height: 1700px !important;
+    }
+
     /* ########################### Technology End ############################ */
 
 
     /* ########################### Ready To Use Start ############################ */
+
+    .child {
+        width: 65vw;
+        height: 100% !important;
+        margin-left: 0vw;
+    }
+    .bg-three, .bg-six {
+        width: 88vw !important;
+    }
+    .bg-three h1, .bg-six h1 {
+        margin-left: -10px !important;
+    }
 
     /* ########################### Ready To Use End ############################ */
 
@@ -45,15 +606,132 @@
 
     /* ########################### Our Expertise Start ############################ */
 
+    #expert-about p {
+        font-size: 0.8rem;
+        width: 90vw;
+    }
+    #expert-about img {
+        width: 90vw;
+    }
+
     /* ########################### Our Expertise End ############################ */
 
 
     /* ########################### About Us Start ############################ */
+
+    .about-main-h1{
+        font-size: 1.4rem !important;
+        width: 90vw;
+    }
+    .about-main-p{
+        font-size: 0.8rem !important;
+        width: 90vw;
+    }
+    #expert-about-us img{
+        margin-top: 0 !important;
+        width: 90vw !important;
+        height: auto !important;
+    }
+    #service-homepage-about-us p{
+        margin-left: 0 !important;
+    }
+    #banner-about-us-team{
+        height: 475px;
+    }
+    .rectangle-get-about-us-banner {
+        width: 70vw;
+        margin-left: 10vw;
+    }
+    .rectangle-get-about-us-banner img{
+        width: 68px;
+    }
+    #banner-about-us-team h2{
+        font-size: 20px;
+    }
+    #get-in-touch-about-us{
+        height: 850px;
+    }
+    .rectangle-get-about-us {
+        margin-left: 20vw;
+    }
+    .about-us-label1 {
+        margin-left: -288px !important;
+    }
+    .about-us-label2 {
+        margin-left: -325px !important;
+    }
+    .about-us-label3 {
+        margin-left: -285px !important;
+    }
+    .about-us-label4 {
+        margin-left: -252px !important;
+    }
+    .about-us-label5 {
+        margin-left: -275px !important;
+    }
+    .about-us-label6 {
+        margin-left: -298px !important;
+    }
+    .about-us-label7 {
+        margin-left: -210px !important;
+    }
+    .about-us-label8 {
+        margin-left: -205px !important;
+    }
+    .about-main-p {
+        font-size: 0.8rem !important;
+        width: 90vw;
+    }
+    .about-main-h1 {
+        font-size: 1.4rem !important;
+        width: 90vw;
+    }
 
     /* ########################### About Us End ############################ */
 
 
     /* ########################### Contact Us Start ############################ */
 
+    #contactUsNew{
+        height: 875px;
+        margin-bottom: -50px;
+    }
+
     /* ########################### Contact Us End ############################ */
+}
+
+@media only screen and (max-width: 425px){
+    .sd-card-image-main {
+        width: 40vw;
+        height: auto !important;
+        margin-left: 15vw;
+    }
+    .process-technolgy h1, .process-technolgy2 h1{
+        margin-top: -175px;
+    }
+    .process-technolgy4 h1, .process-technolgy5 h1, .process-technolgy3 h1 {
+        margin-top: -155px;
+    }
+    .process-technolgy8 h1 {
+        margin-top: -135px !important;
+    }
+    .process-technolgy10 h1 {
+        margin-top: -175px !important;
+    }
+    .process-technolgy11 h1 {
+        margin-top: -153px !important;
+    }
+    #technology-web-developmen, #technology-mobile-developmet{
+        height: 1600px !important;
+    }
+}
+@media only screen and (max-width: 415px){
+    .sd-card-image-main {
+        width: 41vw;
+        height: auto !important;
+        margin-left: 16vw;
+    }
+    .bg-three, .bg-six {
+        width: 90vw !important;
+    }
 }

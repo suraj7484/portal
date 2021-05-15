@@ -1,4 +1,10 @@
 @media only screen and (max-width:550px){
+    #banner{
+        height: 450px;
+    }
+    .button-left-homepage button{
+        margin-left: 20vw;
+    }
     .navbar-light .navbar-nav .nav-link{
         font-size: 0.8rem;
     }
@@ -11,6 +17,9 @@
         height: 85px;
         width: 50px;
     }
+    #banner-homepage h5, #banner-homepage h3, #banner-homepage h2, #banner-homepage h1{
+        margin-left: 15vw !important;
+    }
     .dropdown-content-about-h5{
         font-size: 0.8rem !important;
         color: gray;
@@ -18,15 +27,18 @@
         padding: 4px 0 0 0;
     }
     .dropdown-content{
+        padding-left: 10px;
         position: absolute;
         right: 0;
+        left: 190px;
+        width: 550px;
     }
     .dropdown-content-h5{
         font-size: 0.7rem;
         margin-left: 0px !important;
     }
     #values-para-homepage-second p{
-        margin-left: 200px !important;
+        margin-left: 180px !important;
         margin-bottom: 20px !important;
     }
     .cards-div-main{
@@ -43,13 +55,18 @@
         width: 100px !important;
         height: 150px !important;
     }
+    .cards-div-main{
+        padding-left: 0px !important;
+    }
+    .homepage-first-picture{
+        margin-left: 0 !important;
+    }
     .pic-1{
-        /* display: inline-flex !important; */
-        width: 100px !important;
-        height: 150px !important;
+        width: 150px !important;
+        height: 200px !important;
         padding: 5px !important;
         overflow: hidden !important;
-        /* margin: 0 !important; */
+        margin-left: 0 !important;
     }
     .desktop-how-we-work-view{
         width: 100% !important;
@@ -59,15 +76,28 @@
         width: 100%;
         overflow-x: hidden;
     }
+    .slideInLeft{
+        margin-left: 0 !important;
+    }
+    #values-para-homepage{
+        margin-left: -10px !important;
+    }
+    #values-para-homepage h3{
+        font-size: 1.5rem;
+        width: 50vw;
+    }
+    #values-para-homepage p{
+        width: 45vw;
+    }
     /* .why-omka-tech p{
         width: 50px !important;
     } */
     .slideInRight{
-        margin-left: 150px !important;
+        margin-left: 130px !important;
         margin-top: 0px !important;
     }
     .circle, .circle-third, .circle-five{
-        margin-left: 288px !important;
+        margin-left: 275px !important;
         margin-top: 0px !important;
     }
     .circle-second, .circle-forth, .circle-six{
@@ -110,61 +140,1246 @@
     .row{
         flex-wrap: nowrap;
     }
+    #values-para-homepage-second p{
+        margin-bottom: 50px !important;
+    }
+    .circle {
+        margin-top: -100px !important;
+        width: 100px;
+        height: 100px;
+    }
+    .circle img{
+        width: 70px;
+        position: absolute;
+        top: 17px;
+        margin-left: 13px;
+        height: auto;
+    }
+    .circle-second, .circle-forth, .circle-six {
+        margin-bottom: -40px;
+        margin-top: 145px !important;
+    }
+    .circle-second{
+        height: 100px;
+        width: 100px;
+    }
+    .circle-second img {
+        top: 15px;
+        margin-left: 15px;
+    }
+    #homepage-second-para{
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+    }
+    #homepage-second-para h3{
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+    }
+    .circle-third{
+        width: 100px;
+        height: 100px;
+        margin-top: -50px !important;
+    }
+    .circle-third img {
+        position: absolute;
+        top: 14px;
+        margin-left: 15px;
+        height: auto;
+        width: 60px;
+    }
+    .circle-forth{
+        width: 100px;
+        height: 100px;
+    }
+    .circle-forth img {
+        top: 20px;
+        margin-left: 20px;
+        height: auto;
+        width: 60px;
+    }
+    .circle-five{
+        width: 100px;
+        height: 100px;
+        margin-top: 40px !important;
+    }
+    .circle-five img {
+        top: 20px;
+        margin-left: 20px;
+        height: auto;
+        width: 60px;
+    }
+    .circle-six{
+        height: 100px;
+        width: 100px;
+    }
+    .circle-six img {
+        top: 17px;
+        margin-left: 19px;
+        height: auto;
+        width: 60px;
+    }
+    .mobile-work-home-page-tagline p{
+        font-size: 14px !important;
+    }
+    .button-left-homepage-mobile button{
+        margin-top: 75px;
+        margin-left: 35vw;
+    }
+    .form-control{
+        width: 65vw !important;
+    }
+    .rectangle{
+        margin-left: 68vw;
+    }
+    #services-footer{
+        margin-left: 0;
+    }
+    #contact img {
+        height: 40vw;
+        background-color: transparent;
+        width: 70vw;
+        margin-left: 0vw;
+        margin-right: 5vw;
+        margin-top: 0;
+    }
+    
+    #logo-footer p {
+        margin-right: auto;
+        line-height: 1.2rem;
+        width: 80vw;
+        margin-top: -14vw;
+        font-size: 1rem;
+        margin-bottom: 20vw;
+    }
+
+    .mainBackgroundImage {
+        display: flex !important;
+        width: 35vw !important;
+        height: 300px !important;
+    }
+    .whyCardPara{
+        width: 30vw !important;
+    }
+    .second-homepage-slide-h3{
+        margin-top: -130px !important;
+        font-size: 1.3rem;
+    }
+    .third-homepage-slide-h3{
+        margin-top: 130px !important;
+        font-size: 1.3rem;
+    }
+    .forth-homepage-slide-h3{
+        margin-top: -130px !important;
+        font-size: 1.3rem;
+    }
+    .five-homepage-slide-h3{
+        margin-top: 130px !important;
+        font-size: 1.3rem;
+    }
+    .six-homepage-slide-h3{
+        margin-top: -130px !important;
+        font-size: 1.3rem;
+    }
+
+
+
+
+
+
+    .technology-h1 {
+        margin-left: auto !important;
+        font-size: 1.5rem;
+        width: 100vw;
+        text-align: center;
+    }
+    #technology h1{
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 0;
+    }
+    #technology .line {
+        margin-left: -275px;
+        margin-top: -62px;
+        height: 55vw;
+    }
+    #technology .invision {
+        height: 100px;
+        margin-left: 208px;
+        margin-top: -780px;
+    }
+    #technology .figma {
+        height: 100px;
+        margin-left: 170px;
+        margin-top: -665px;
+    }
+    #technology .xd {
+        height: 100px;
+        margin-left: 200px;
+        margin-top: -530px;
+    }
+    #technology .sketch {
+        height: 100px;
+        margin-left: 210px;
+        margin-top: -380px;
+    }
+    #technology .ai {
+        height: 100px;
+        margin-left: 160px;
+        margin-top: -265px;
+    }
+    #technology .ps {
+        height: 103px;
+        margin-left: 209px;
+        margin-top: -40px;
+    }
+    #technology-mobile-app-new h1{
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 0;
+    }
+    #technology-mobile-app-new .line {
+        margin-left: -275px;
+        margin-top: -22px;
+        height: 55vw;
+    }
+    #technology-mobile-app-new .invision {
+        height: 100px;
+        margin-left: 208px;
+        margin-top: -780px;
+    }
+    #technology-mobile-app-new .figma {
+        height: 100px;
+        margin-left: 170px;
+        margin-top: -665px;
+    }
+    #technology-mobile-app-new .xd {
+        height: 100px;
+        margin-left: 200px;
+        margin-top: -530px;
+    }
+    #technology-mobile-app-new .sketch {
+        height: 100px;
+        margin-left: 210px;
+        margin-top: -380px;
+    }
+    #technology-mobile-app-new .ai {
+        height: 100px;
+        margin-left: 160px;
+        margin-top: -265px;
+    }
+    #technology-mobile-app-new .ps {
+        height: 103px;
+        margin-left: 209px;
+        margin-top: -40px;
+    }
+    #technology-gaming-new h1{
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 0;
+    }
+    #technology-gaming-new .line {
+        margin-left: -275px;
+        margin-top: -22px;
+        height: 55vw;
+    }
+    #technology-gaming-new .invision {
+        height: 100px;
+        margin-left: 208px;
+        margin-top: -780px;
+    }
+    #technology-gaming-new .figma {
+        height: 100px;
+        margin-left: 170px;
+        margin-top: -665px;
+    }
+    #technology-gaming-new .xd {
+        height: 100px;
+        margin-left: 200px;
+        margin-top: -530px;
+    }
+    #technology-gaming-new .sketch {
+        height: 100px;
+        margin-left: 210px;
+        margin-top: -380px;
+    }
+    #technology-gaming-new .ai {
+        height: 100px;
+        margin-left: 160px;
+        margin-top: -265px;
+    }
+    #technology-gaming-new .ps {
+        height: 103px;
+        margin-left: 209px;
+        margin-top: -40px;
+    }
+    #technology-seo-new h1{
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 0;
+    }
+    #technology-seo-new .line {
+        margin-left: -275px;
+        margin-top: -20px;
+        height: 50vw;
+    }
+    #technology-seo-new .invision {
+        height: 100px;
+        margin-left: 208px;
+        margin-top: -780px;
+    }
+    #technology-seo-new .figma {
+        height: 100px;
+        margin-left: 170px;
+        margin-top: -665px;
+    }
+    #technology-seo-new .xd {
+        height: 100px;
+        margin-left: 200px;
+        margin-top: -530px;
+    }
+    #technology-seo-new .sketch {
+        height: 100px;
+        margin-left: 210px;
+        margin-top: -380px;
+    }
+    #technology-seo-new .ai {
+        height: 100px;
+        margin-left: 160px;
+        margin-top: -265px;
+    }
+    #technology-seo-new .ps {
+        height: 103px;
+        margin-left: 209px;
+        margin-top: -40px;
+    }
+    #technology-web-new h1{
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 0;
+    }
+    #technology-web-new .line {
+        margin-left: -275px;
+        margin-top: -20px;
+        height: 50vw;
+    }
+    #technology-web-new .invision {
+        height: 100px;
+        margin-left: 208px;
+        margin-top: -780px;
+    }
+    #technology-web-new .figma {
+        height: 100px;
+        margin-left: 170px;
+        margin-top: -665px;
+    }
+    #technology-web-new .xd {
+        height: 100px;
+        margin-left: 200px;
+        margin-top: -530px;
+    }
+    #technology-web-new .sketch {
+        height: 100px;
+        margin-left: 210px;
+        margin-top: -380px;
+    }
+    #technology-web-new .ai {
+        height: 100px;
+        margin-left: 160px;
+        margin-top: -265px;
+    }
+    #technology-web-new .ps {
+        height: 103px;
+        margin-left: 209px;
+        margin-top: -40px;
+    }
+    #technology-mobile-app h1{
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 0;
+    }
+    #technology-mobile-app #line {
+        margin-left: -275px;
+        margin-top: -20px;
+        height: 50vw;
+    }
+    #technology-mobile-app #invison {
+        height: 100px;
+        margin-left: 208px;
+        margin-top: -780px;
+    }
+    #technology-mobile-app #figma {
+        height: 100px;
+        margin-left: 170px;
+        margin-top: -665px;
+    }
+    #technology-mobile-app #xd {
+        height: 100px;
+        margin-left: 200px;
+        margin-top: -530px;
+    }
+    #technology-mobile-app #sketch {
+        height: 100px;
+        margin-left: 210px;
+        margin-top: -380px;
+    }
+    #technology-mobile-app .ai {
+        height: 100px;
+        margin-left: 160px;
+        margin-top: -265px;
+    }
+    #technology-mobile-app #ps {
+        height: 103px;
+        margin-left: 209px;
+        margin-top: -40px;
+    }
+
+
+
+
+    #contact h3{
+        font-size: 25px;
+    }
+    #contact h2{
+        font-size: 20px;
+    }
+    #contact h5{
+        font-size: 0.8rem;
+    }
+    #desktop-address-view{
+        font-size: 0.8rem;
+    }
+    .col-md-6 strong{
+        font-size: 0.8rem;
+    }
+    #technology-mobile-app .line {
+        margin-left: -400px;
+        margin-top: -21px;
+        height: 70vw;
+    }
+    #technology-mobile-app-new .line {
+        margin-left: -275px;
+        margin-top: -22px;
+        height: 65vw;
+    }
     /* ########################### UI/UX Design Start ################################ */
+
+    .ux-our-unique-h5{
+        font-size: 1.2rem !important;
+        margin-top: 150px;
+    }
+    #banner h1, #banner-mobileapp h1, #banner-digital h1, #banner-gaming h1, #banner-web-dev h1, #banner-software-dev h1, #banner-technology h1, #ready-banner-new h1, #portfolio-banner h1, #banner-about h1, #banner-about-us h1{
+        font-size: 2rem;
+    }
+    #banner p, #banner-mobileapp p, #banner-digital p, #banner-gaming p, #banner-web-dev p, #banner-software-dev p, #banner-technology p, #ready-banner-new p, #portfolio-banner p{
+        font-size: 1.2rem;
+    }
+    .image img {
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-top: -750px;
+        width: 90vw;
+        height: 325px;
+    }
+    .ux-image-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .content{
+        position: relative;
+        margin-left: -21vw;
+        width: 85vw;
+        margin-top: 325px;
+    }
+    .content h1{
+        font-size: 21px;
+        margin-left: 0px;
+    }
+    .content p{
+        font-size: 13px;
+        margin-left: 0px;
+    }
+    .content-overlap-second h1, .content-overlap-third h1, .content-overlap-forth h1, .content-overlap-five h1, .content-overlap-six h1{
+        font-size: 20px;
+        margin-left: 0;
+    }
+    .content-overlap-second p, .content-overlap-third p, .content-overlap-forth p, .content-overlap-five p, .content-overlap-six p{
+        font-size: 13px;
+        margin-bottom: 0 !important;
+    }
+    .content-overlap-second ul, .content-overlap-third ul, .content-overlap-forth ul, .content-overlap-five ul, .content-overlap-six ul{
+        margin-left: 5%;
+    }
+    .content-overlap-second, .content-overlap-forth, .content-overlap-six{
+        width: 90vw;
+        margin-left: 5vw;
+    }
+    .overlap-second, .overlap-third, .overlap-forth, .overlap-five{
+        height: 575px !important;
+    }
+    .overlap-six{
+        height: 1074px !important;
+    }
+    .overlap-second-div{
+        position: relative !important;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    #overlap-image-second{
+        width: 90vw !important;
+        margin-left: 0;
+        margin-top: 21%;
+    }
+    #overlap-content-second{
+        width: 90vw !important;
+        margin-top: 105%;
+    }
+    #overlap-image-third{
+        width: 90vw !important;
+        margin-left: 50%;
+        margin-top: 0%;
+    }
+    #overlap-content-third{
+        width: 90vw !important;
+        margin-top: 80%;
+        margin-left: 5vw;
+    }
+    #overlap-image-forth{
+        width: 90vw !important;
+        margin-left: -20%;
+        margin-top: 85%;
+    }
+    #overlap-content-forth{
+        width: 90vw !important;
+        margin-top: 80%;
+    }
+    #overlap-image-five{
+        width: 90vw !important;
+        margin-left: 50%;
+        margin-top: 125%;
+    }
+    #overlap-content-five{
+        width: 90vw !important;
+        margin-top: 64%;
+        margin-left: 5vw;
+    }
+    #overlap-image-six{
+        width: 90vw !important;
+        margin-left: 0;
+        margin-top: 200%;
+    }
+    #overlap-content-six{
+        width: 90vw !important;
+        margin-top: 21%;
+    }
+    .image-overlap-third img{
+        margin-left: 5vw !important;
+    }
+    .image-overlap-five img{
+        margin-left: 0 !important;
+    }
+    .image-overlap-six img {
+        margin-left: -50px;
+    }
+    .image-overlap-forth img{
+        margin-top: -100px;
+    }
+    #overlap-content-six {
+        margin-top: 25% ;
+        margin-left: 5vw !important;
+    }
+    .image-overlap-five img {
+        margin-left: -100px !important;
+    }
 
     /* ########################### UI/UX Design End ################################ */
 
     /* ########################### Mobile App Development Start ############################ */
-    
+
+    .mobile-app-image {
+        margin-left: 5vw;
+        width: 90vw;
+        height: auto;
+    }
+    .mobile-app-cards{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+
+    #work-homepage p.new{
+        font-size: 20px;
+    }
+    #dream-app h5 {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    #dream-app p{
+        font-size: 14px;
+    }
+    #dream-app img {
+        width: 90vw;
+        margin-left: 0vw;
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+    #banner-mobile-app-digital h2{
+        font-size: 16px;
+    }
+    #banner-mobile-app-digital h2, #banner-mobile-app-digital p, .button-left-mobile-app-digital button{
+        font-size: 11.5px;
+    }
+    #banner-mobile-app-digital{
+        height: 150px;
+    }
+    #banner-mobile-app-digital p{
+        margin-bottom: 0 !important;
+    }
+    .button-left-mobile-app-digital button{
+        width: 100px;
+        height: 22px;
+        font-size: 11.5px;
+        margin-top: -25px;
+    }
+    .why-omka-mobile-box1>img, .why-omka-mobile-box2>img, .why-omka-mobile-box3>img, .why-omka-mobile-box4>img, .why-omka-mobile-box5>img, .why-omka-mobile-box6>img, .why-omka-mobile-box7>img, .why-omka-mobile-box8>img{
+        width: 70vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        margin: auto;
+    }
+    .why-omka-mobile-box1 h1, .why-omka-mobile-box2 h1, .why-omka-mobile-box3 h1, .why-omka-mobile-box4 h1, .why-omka-mobile-box5 h1, .why-omka-mobile-box6 h1, .why-omka-mobile-box7 h1, .why-omka-mobile-box8 h1{
+        font-size: 14px;
+    }
+    .why-omka-mobile-box1>.zoomIn>img, .why-omka-mobile-box2>.zoomIn>img, .why-omka-mobile-box3>.zoomIn>img, .why-omka-mobile-box4>.zoomIn>img, .why-omka-mobile-box5>.zoomIn>img, .why-omka-mobile-box6>.zoomIn>img, .why-omka-mobile-box7>.zoomIn>img, .why-omka-mobile-box8>.zoomIn>img{
+        margin-left: 40vw !important;
+    }
+    .why-omka-mobile-box8{
+        height: 1000px;
+    }
+    .mobile-app-card1 {
+        margin-left: 15vw !important;
+    }
+    .mobile-app-card2 {
+        margin-left: 15vw !important;
+        margin-top: 35%;
+        margin-bottom: 0%;
+    }
+    .mobile-app-card3 {
+        margin-left: 15vw !important;
+        margin-top: 35%;
+    }
+    .mobile-app-card4 {
+        margin-left: 15vw !important;
+        margin-top: 0%;
+    }
+    #dream-app img{
+        width: 80vw;
+    }
+    #why-omka-mobile{
+        height: 1600px;
+    }
     /* ########################### Mobile App Development End ############################ */
 
 
     /* ########################### Digital Marketing Start ############################ */
+
+    #seo-trafic h2{
+        font-size: 1.6rem;
+    }
+    #seo-trafic p{
+        font-size: 0.9rem;
+        width: 80vw;
+    }
+    .button-left-seo-trafic button{
+        margin-top: 0;
+    }
+    #seo-trafic{
+        height: 925px;
+    }
+    #seo-trafic img{
+        width: 80vw;
+        height: auto !important;
+        margin-left: 0 !important;
+    }
+    .image-overlap-seo, .image-overlap-content{
+        margin-top: 0 !important;
+        margin-left: 4vw !important;
+    }
+    .image-overlap-smm{
+        margin-top: 70% !important;
+        margin-left: 4vw !important;
+    }
+    .content-overlap-seo, .content-overlap-content{
+        margin-top: 110% !important;
+        margin-left: 4vw !important;
+    }
+    .content-overlap-smm{
+        margin-top: 180% !important;
+        margin-left: 4vw !important;
+    }
+    .image-overlap-smo, .image-overlap-ppc {
+        margin-left: 4vw !important;
+        margin-top: 35% !important;
+    }
+    .content-overlap-smo, .content-overlap-ppc{
+        height: auto !important;
+        margin-top: 145% !important;
+        margin-left: 4vw !important;
+    }
+    .overlap-image-forth{
+        margin-top: 60% !important;
+    }
+    .overlap-content-forth{
+        margin-top: 168% !important;
+    }
+    .image-overlap-ppc{
+        margin-top: 75% !important;
+    }
+    .content-overlap-ppc{
+        margin-top: 183% !important;
+    }
+    .overlap-seo, .overlap-smo, .overlap-content, .overlap-ppc{
+        height: 490px !important;
+    }
+    .overlap-smm{
+        height: 1325px !important;
+    }
+    .seo-ul1, .seo-ul {
+        width: 90vw !important;
+        margin-left: 4vw !important;
+    }
+    #web-design-seo img, #sem-seo img {
+        margin-left: 0vw;
+        width: 80vw;
+        margin-top: 0;
+    }
+    #seo-seo img, #smm-seo img {
+        margin-left: 0;
+        width: 80vw;
+        margin-top: 75px;
+    }
+    #web-design-seo h1, #seo-seo h1, #smm-seo h1, #sem-seo h2, #web-design-seo h2, #seo-seo h2, #smm-seo h2, #sem-seo h2{
+        margin-left: 4vw;
+    }
+    #web-design-seo, #seo-seo, #sem-seo{
+        height: 550px !important;
+    }
+    #web-design-seo{
+        margin-top: 0 !important;
+    }
+    #smm-seo{
+        height: 575px !important;
+    }
+    #seo-seo{
+        margin-top: 240px;
+    }
+    #sem-seo{
+        margin-top: 250px;
+    }
+    #web-design-seo ul li p, #seo-seo ul li p, #smm-seo ul li p, #sem-seo ul li p{
+        width: 75vw;
+    }
 
     /* ########################### Digital Marketing End ############################ */
 
 
     /* ########################### Gaming App Development Start ############################ */
 
+    #work-homepage p.new{
+        margin-top: 25px;
+    }
+    .ga-unity-content{
+        margin-top: -100px;
+    }
+    #service-gaming-html img{
+        margin-top: 0;
+    }
+    #service-gaming img{
+        margin-top: 0 ;
+    }
+    #service-gaming-hd img{
+        margin-top: 0;
+    }
+    #service-gaming-ios h1{
+        margin-top: -75px;
+    }
+    #service-gaming-android h1{
+        margin-top: 100px;
+    }
+    #service-gaming-android img{
+        margin-top: 0;
+    }
+    #service-gaming-hd h1{
+        margin-top: 100px;
+    }
+    #why-choose-us-gaming-new{
+        height: 1000px;
+    }
+    .gaming-app-card-h5, .gaming-app-card-h5-exc{
+        width: 125px;
+    }
+    .gaming-app-card{
+        width: 45vw;
+        margin-left: 15vw;
+    }
+    .gaming-app-card-h5, .gaming-app-card-h5-exc{
+        margin-left: 27vw !important;
+    }
+
     /* ########################### Gaming App Development End ############################ */
 
 
     /* ########################### Web Development Start ############################ */
+
+    #dummy-soft img{
+        margin-top: 0;
+        height: auto !important;
+        width: 80vw;
+        margin-left: 5vw;
+        margin-right: 10vw;   
+    }
+    #soft-choose p{
+        margin-top: -125px;
+        font-size: 20px;
+    }
+    p.newSoft:after{
+        top: 19px;
+    }
+    .why-omka-software-page-box6 h1, .why-omka-software-page-box5 h1, .why-omka-software-page-box4 h1, .why-omka-software-page-box3 h1{
+        margin-top: -225px;
+        width: 75vw;
+    }
+    .why-omka-software-page-box1 h1{
+        margin-top: -225px;
+        width: 75vw;
+    }
+    .why-omka-software-page-box2 h1{
+        margin-top: -180px;
+        width: 75vw;
+    }
+    .why-omka-software-page-box6 p, .why-omka-software-page-box5 p, .why-omka-software-page-box4 p, .why-omka-software-page-box3 p, .why-omka-software-page-box2 p, .why-omka-software-page-box1 p{
+        width: 75vw;
+    }
+    p.new3{
+        margin-top: 1000px !important;
+    }
+    #web-service{
+        height: 950px;
+    }
+    #web-service img{
+        width: 80vw !important;
+        height: auto !important;
+        margin-left: 0vw !important;
+    }
+    #process-web{
+        height: 2000px;
+    }
+    .process-web-box1 h1, .process-web-box2 h1, .process-web-box3 h1, .process-web-box4 h1, .process-web-box5 h1, .process-web-box6 h1{
+        text-align: left !important;
+        padding-left: 40px;
+    }
+    .web-deveopment-card-develop{
+        margin-top: -437px !important;
+    }
+    #overlap-image-second, #overlap-image-third{
+        margin-left: 5vw;
+    }
+    .overlap-resp-web{
+        height: 375px;
+    }
+    .overlap-user-web{
+        height: 390px;
+    }
+    .overlap-proff-web{
+        height: 500px;
+    }
+    .overlap-speed-web{
+        height: 1400px;
+    }
+    
 
     /* ########################### Web Development End ############################ */
 
 
     /* ########################### Software Development Start ############################ */
 
+    .overlap-third-ui-soft{
+        height: 450px;
+    }
+    #overlap-image-forth {
+        width: 90vw !important;
+        margin-left: 5vw;
+        margin-top: 0;
+    }
+    .image-overlap-five-test-soft{
+        margin-top: 0 !important;
+        margin-left: 5vw !important;
+    }
+    .content-overlap-five-test-soft{
+        margin-top: 87% !important;
+    }
+    .overlap-forth-development-soft{
+        height: 450px;
+    }
+    .overlap-five-test-soft{
+        height: 465px;
+    }
+    .image-overlap-six-launch-soft{
+        margin-top: 0 !important;
+        margin-left: 5vw !important;
+    }
+    .overlap-six-launch-soft{
+        height: 1050px;
+    }
+    .content-overlap-six-launch-soft{
+        margin-top: 87% !important;
+        margin-left: 5vw !important;
+    }
+    #overlap-content-second, #overlap-content-third, #overlap-content-forth, #overlap-content-five, #overlap-content-six{
+        height: auto !important;
+        margin-left: 5vw !important;
+    }
+    .sd-card-image-main {
+        width: 40vw;
+        height: auto !important;
+        margin-left: 15vw;
+    }
+    #why-choose-us-software-new{
+        height: 1150px;
+    }
+    .sd-card-h4-minor, .sd-card-h4 {
+        margin-left: 17vw !important;
+        width: 37vw;
+    }
+    .sd-card-image-minor, .sd-card-image-major {
+        margin-top: -270px !important;
+        margin-left: 30vw !important;
+        width: 60px;
+    }
+    .major-major {
+        margin-top: -300px !important;
+    }
+    #dummy-soft img{
+        width: 65vw;
+    }
+    
+
     /* ########################### Software Development End ############################ */
 
 
     /* ########################### Technology Start ############################ */
 
+    .technology-types-image{
+        width: 90vw !important;
+    }
+    .process-technolgy p, .process-technolgy2 p, .process-technolgy3 p, .process-technolgy4 p, .process-technolgy5 p, .process-technolgy6 p{
+        width: 80vw;
+    }
+    #technology-web-developmen{
+        height: 1475px;
+        margin-top: 0 !important;
+    }
+    .process-technolgy4 h1, .process-technolgy5 h1, .process-technolgy3 h1{
+        margin-top: -180px;
+    }
+    .technology-for-sd-image, .technologies-for-sd-h2{
+        margin-left: 25vw !important;
+    }
+    .technology-h2-minor{
+        margin-left: 37vw !important;
+    }
+    #technology-mobile-developmet{
+        height: 1450px;
+        margin-top: 0 !important;
+    }
+    .process-technolgy8 h1{
+        margin-top: -160px !important;
+    }
+    .process-technolgy10 h1{
+        margin-top: -180px !important;
+    }
+    .free-cost-technology, .free-cost-technology-mysql, .free-cost-technology-dynamo, .free-cost-technology-firebase{
+        margin-left: 10vw;
+    }
+    .technology-types-image {
+        width: 70vw !important;
+    }
+    .process-technolgy p, .process-technolgy2 p, .process-technolgy3 p, .process-technolgy4 p, .process-technolgy5 p, .process-technolgy6 p{
+        width: 65vw;
+    }
+    .process-technolgy h1, .process-technolgy2 h1{
+        margin-top: -175px;
+    }
+    .process-technolgy4 h1, .process-technolgy5 h1, .process-technolgy3 h1 {
+        margin-top: -155px;
+    }
+    .process-technolgy8 h1 {
+        margin-top: -135px !important;
+    }
+    .process-technolgy10 h1 {
+        margin-top: -175px !important;
+    }
+    .process-technolgy11 h1{
+        margin-top: -155px !important;
+    }
+    .free-cost-technology, .free-cost-technology-mysql, .free-cost-technology-dynamo, .free-cost-technology-firebase {
+        margin-left: 22.5vw;
+    }
     /* ########################### Technology End ############################ */
 
 
     /* ########################### Ready To Use Start ############################ */
+    .child {
+        width: 50vw;
+        height: 100% !important;
+        margin-left: 0vw;
+    }
+    #ready-banner-new{
+        height: 500px;
+    }
+    .bg-two{
+        margin-right: 15vw !important;
+    }
+    .bg-three, .bg-six {
+        width: 70vw !important;
+        overflow: hidden !important;
+    }
+    .bg-three .btn-register-header-ready, .bg-six .btn-register-header-ready{
+        margin-left: 30vw !important;
+    }
+    .bg-three h1, .bg-six h1 {
+        margin-left: -40px !important;
+        text-align: center;
+    }
+    .child h1 {
+        padding-left: 25px;
+    }
+    .btn-register-header-ready{
+        margin-left: 75px;
+    }
+    #OurReadySolution{
+        height: 1950px !important;
+    }
+    .parent {
+        height: 200px !important;
+    }
+    
 
     /* ########################### Ready To Use End ############################ */
 
 
     /* ########################### Portfolio Start ############################ */
 
+    #portfolio-banner img, #portfolio-Mobile img, #portfolio-Gaming img{
+        width: 275px !important;
+        margin-left: 15vw !important;
+        margin-top: 25px !important;
+    }
+    #portfolio-web img, #portfolio-Software img, #portfolio-Digital img {
+        width: 225px;
+        margin-left: 15vw !important;
+        margin-top: 25px !important;
+    }
+    #portfolio-Mobile h1, #portfolio-Software h1, #portfolio-banner h1, #portfolio-web h1, #portfolio-Digital h1{
+        margin-top: 25px;
+    }
+    .border-white img{
+        display: none;
+    }
+    #portfolio-Gaming h1{
+        margin-top: 25px;
+        margin-left: 0 !important;
+    }
+    #portfolio-Gaming h5{
+        margin-top: 0px;
+        margin-left: 0 !important;
+    }
+
     /* ########################### Portfolio End ############################ */
 
 
     /* ########################### Our Expertise Start ############################ */
+
+    .button-left-about button{
+        margin-left: 25vw;
+    }
+    #expert-about h1{
+        font-size: 1.6rem;
+        width: 90vw;
+    }
+    #expert-about p{
+        font-size: 0.8rem;
+        width: 90vw;
+    }
+    #expert-about img{
+        width: 90vw;
+    }
+    #ui-about-tough, #mobile-about-tough, #web-about-tough, #digital-about-tough, #brand-about-tough, #erp-about-tough, #gaming-about-tough, #marketing-about-tough, #crypto-about-tough{
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    #expert-about p {
+        font-size: 0.8rem;
+        width: 70vw;
+    }
+    #expert-about img {
+        width: 70vw;
+    }
+    #expert-about h1 {
+        font-size: 1.6rem;
+        width: 84vw;
+    }
+    
 
     /* ########################### Our Expertise End ############################ */
 
 
     /* ########################### About Us Start ############################ */
 
+    .about-main-h1{
+        font-size: 1.4rem !important;
+        width: 90vw;
+    }
+    .about-main-p{
+        font-size: 0.8rem !important;
+        width: 90vw;
+    }
+    #expert-about-us img{
+        margin-top: 0 !important;
+        width: 70vw !important;
+        height: auto !important;
+    }
+    #service-homepage-about-us p{
+        margin-left: 0 !important;
+    }
+    #banner-about-us-team{
+        height: 475px;
+    }
+    .rectangle-get-about-us-banner {
+        width: 70vw;
+        margin-left: 0vw;
+    }
+    .rectangle-get-about-us-banner img{
+        width: 68px;
+    }
+    #banner-about-us-team h2{
+        font-size: 20px;
+    }
+    #get-in-touch-about-us{
+        height: 850px;
+    }
+    .rectangle-get-about-us {
+        margin-left: 20vw;
+    }
+    .about-us-label1 {
+        margin-left: -290px !important;
+    }
+    .about-us-label2 {
+        margin-left: -327px !important;
+    }
+    .about-us-label3 {
+        margin-left: -295px !important;
+    }
+    .about-us-label4 {
+        margin-left: -263px !important;
+    }
+    .about-us-label5 {
+        margin-left: -290px !important;
+    }
+    .about-us-label6 {
+        margin-left: -305px !important;
+    }
+    .about-us-label7 {
+        margin-left: -220px !important;
+    }
+    .about-us-label8 {
+        margin-left: -220px !important;
+    }
+    .circle-about-different-forth, .circle-about-different-five{
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .circle-about-different {
+        margin-top: -210px;
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .circle-about-different-forth, .circle-about-different-five{
+        margin-top: 22px !important;
+        width: 50px !important;
+        height: 50px !important;
+    }
+    #omkatech-different-about-us #test-about{
+        height: 32px;
+        
+    }
+    .circle-about-different-second, .circle-about-different-third{
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .circle-about-different h5, .circle-about-different-second h5, .circle-about-different-third h5, .circle-about-different-forth h5, .circle-about-different-five h5 {
+        font-size: 14px !important;
+        margin-left: 75px !important;
+        margin-top: -30px !important;
+    }
+    .about-us-laptop-image{
+        height: 135px !important;
+        width: 150px !important;
+        margin-left: 50vw !important;
+    }
+    .about-main-p {
+        font-size: 0.8rem !important;
+        width: 70vw;
+    }
+    .about-main-h1 {
+        font-size: 1.4rem !important;
+        width: 80vw;
+    }
+
     /* ########################### About Us End ############################ */
 
 
     /* ########################### Contact Us Start ############################ */
+
+    #contactUsNew, .contactInput{
+        margin-left: 0;
+        width: 90vw;
+    }
+    .contactInput h2{
+        font-size: 1.3rem;
+        padding-left: 0 !important;
+    }
+    #contactUsNew .col-md-6, #contactUsNew .col-md-12{
+        padding-left: 0;
+    }
+    #contactUsNew img{
+        margin-left: 0 !important;
+        width: 70vw;
+        margin-left: 10vw !important;
+        margin-right: 10vw !important;
+    }
+    #register-form{
+        margin-left: 4vw !important;
+        width: 80vw !important;
+    }
+    #register-form p{
+        margin-bottom: 0 !important;
+    }
+    #register-form input{
+        font-size: 14px;
+    }
+    #contactUsNew{
+        height: 1000px;
+        margin-bottom: -50px;
+        margin-left: 15px;
+    }
+    .contactInput{
+        margin-left: -10px;
+    }
 
     /* ########################### Contact Us End ############################ */
 }

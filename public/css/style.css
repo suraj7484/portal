@@ -7548,6 +7548,21 @@ input[type="password"] {
     color: #ff511f;
     background-color: white;
 }
-
-@import "./HomePage/WhyOMKATech.css";
-@import "./HomePage/Responsive.css";
+.mobile-app-card2 {
+    margin-left: 45% !important;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.mobile-app-card3 {
+    margin-left: 45% !important;
+    margin-top: 0%;
+}
+.circle{
+    margin-top: 75px;
+}
+.circle-second, .circle-third, .circle-forth, .circle-five, .circle-six{
+    margin-top: 50px;
+}
+#values{
+    height: 1150px;
+}

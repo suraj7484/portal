@@ -78,7 +78,7 @@ class MobileApp extends Component {
 
                 <section id="work-homepage">
                     <div class="container" >
-                        <p class="new">Services We Offer</p>
+                        <p class="new new1">Services We Offer</p>
                         <hr />
                         <h5 style={{fontFamily : 'Roboto'}}>Take Your Business to Next Level With Our Mobile App Development Solutions</h5>
                     </div>
@@ -93,34 +93,49 @@ class MobileApp extends Component {
                             </div>
                             <div className="row mobile-app-cards">
 
-                                <div className="col-md-12">                                
-                                    <img style={{marginTop : '-1150px' , marginLeft : '540px'}} src={blueIcon} />
+                                <div className="col-md-12 mobile-app-card1">                                
+                                    <img className = "ma-image-major" style={{marginTop : '-1150px' , marginLeft : '540px'}} src={blueIcon} />
                                     
                                     <h5 style={{marginTop : '-620px' , marginLeft : '670px' , fontSize : '22px' , fontFamily : 'Roboto' }}>iOS APP </h5>
                                     <p style={{marginTop : '20px' , marginLeft : '610px' , fontSize : '18px', fontFamily : 'Roboto' }}>Our Developers will create <br/>from single page application<br/> to custorized complex web <br/>application.</p>
-                                    <img  style={{marginLeft  : '670px' , marginTop : '-490px'}} src={img1} />
+                                    <img className = "ma-image-minor" style={{marginLeft  : '670px' , marginTop : '-490px'}} src={img1} />
+                                </div>
+                                <div className="col-md-12 mobile-app-card2">                                
+                                    <img className = "ma-image-major" style={{marginTop : '-1150px' , marginLeft : '540px'}} src={darkGreenIcon} />
+                                    
+                                    <h5 style={{marginTop : '-620px' , marginLeft : '670px' , fontSize : '22px' , fontFamily : 'Roboto' }}>ANDROID APP </h5>
+                                    <p style={{marginTop : '20px' , marginLeft : '610px' , fontSize : '18px', fontFamily : 'Roboto' }}>Our Developers will create <br/>from single page application<br/> to custorized complex web <br/>application.</p>
+                                    <img className = "ma-image-minor" style={{marginLeft  : '670px' , marginTop : '-490px'}} src={img2} />
                                 </div>
 
                                 
-                                <div className="col-md-12">                                
-                                <img style={{marginTop : '-1070px' , marginLeft : '920px' }} src={darkGreenIcon} />
+                                {/* <div className="col-md-12 mobile-app-card2">                                
+                                <img className = "ma-image-major" style={{marginTop : '-1070px' , marginLeft : '920px' }} src={darkGreenIcon} />
                                 <h5 style={{marginTop : '-580px' , marginLeft : '1020px' , fontSize : '22px', fontFamily : 'Roboto' }}>ANDROID APP </h5>
                                 <p style={{marginTop : '20px' , marginLeft : '1000px' , fontSize : '18px', fontFamily : 'Roboto' }}>Our Developers will create <br/>from single page application<br/> to custorized complex web <br/>application.</p>
-                                <img  style={{marginLeft  : '1050px' , marginTop : '-490px'}} src={img2} />
-                                </div>
-                                <div className="col-md-12">                                
-                                <img style={{marginTop : '-400px' , marginLeft : '920px'}} src={darkBlueICon} />
+                                <img className = "ma-image-minor"  style={{marginLeft  : '1050px' , marginTop : '-490px'}} src={img2} />
+                                </div> */}
+                                
+                                {/* <div className="col-md-12 mobile-app-card3">                                
+                                <img className = "ma-image-major" style={{marginTop : '-400px' , marginLeft : '920px'}} src={darkBlueICon} />
                                 <h5 style={{marginTop : '-250px' , marginLeft : '990px' , fontSize : '22px', fontFamily : 'Roboto' }}>HYBRID-NATIVE APP</h5>
                                 <p style={{marginTop : '20px' , marginLeft : '980px' , fontSize : '18px', fontFamily : 'Roboto' }}>Our Developers will create <br/>from single page application<br/> to custorized complex web <br/>application.</p>
-                                <img  style={{marginLeft  : '1050px' , marginTop : '-490px'}} src={img5} />
-                                </div>
+                                <img className = "ma-image-minor"  style={{marginLeft  : '1050px' , marginTop : '-490px'}} src={img5} />
+                                </div> */}
 
                                 
-                                <div className="col-md-12">                                
-                                <img style={{marginTop : '-485px' , marginLeft : '540px'}} src={greenIcon} />
+                                <div className="col-md-12 mobile-app-card4">                                
+                                <img className = "ma-image-major" style={{marginTop : '-485px' , marginLeft : '540px'}} src={greenIcon} />
                                 <h5 style={{marginTop : '-290px' , marginLeft : '590px' , fontSize : '22px', fontFamily : 'Roboto' }}>PROGRESSIVE WEB APP</h5>
                                 <p style={{marginTop : '20px' , marginLeft : '610px' , fontSize : '18px', fontFamily : 'Roboto' }}>Our Developers will create <br/>from single page application<br/> to custorized complex web <br/>application.</p>
-                                <img  style={{marginLeft  : '675px' , marginTop : '-490px'}} src={img3} />
+                                <img className = "ma-image-minor"  style={{marginLeft  : '675px' , marginTop : '-490px'}} src={img3} />
+                                </div>
+
+                                <div className="col-md-12 mobile-app-card3">                                
+                                <img className = "ma-image-major" style={{marginTop : '-485px' , marginLeft : '540px'}} src={darkBlueICon} />
+                                <h5 style={{marginTop : '-290px' , marginLeft : '590px' , fontSize : '22px', fontFamily : 'Roboto' }}>HYBRID-NATIVE APP</h5>
+                                <p style={{marginTop : '20px' , marginLeft : '610px' , fontSize : '18px', fontFamily : 'Roboto' }}>Our Developers will create <br/>from single page application<br/> to custorized complex web <br/>application.</p>
+                                <img className = "ma-image-minor"  style={{marginLeft  : '675px' , marginTop : '-490px'}} src={img5} />
                                 </div>
 
                                 </div>
@@ -138,7 +153,7 @@ class MobileApp extends Component {
 
                 <section id="work-homepage">
                     <div class="container" >
-                        <p class="new">Build your Dream App with OMKA TECH</p>
+                        <p class="new new2">Build your Dream App with OMKA TECH</p>
                         <hr />
                     </div>
                 </section>

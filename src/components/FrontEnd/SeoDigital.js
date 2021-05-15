@@ -151,10 +151,10 @@ connect With your target audience.</p>
                     <div class="contanier">
                         <div class="row">
                             <div class="col-md-12">
-                                <div id="overlap-image-second" class="image-overlap-content ">
+                                <div id="overlap-image-second" class="image-overlap-content overlap-image-forth">
                                     <img src={content} />
                                 </div>
-                                <div id="overlap-content-second" class="content-overlap-content ">
+                                <div id="overlap-content-second" class="content-overlap-content  overlap-content-forth">
                                     <h1>Content Marketing</h1>
                                     <p>Our content marketing services help you achieve your
 business and marketing goals. We leverage engaging
